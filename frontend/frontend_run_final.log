@@ -1,0 +1,16 @@
+
+> frontend@0.0.0 dev
+> vite --host
+
+
+  VITE v7.3.1  ready in 87 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.218.83.163:5173/
+  ➜  press h + enter to show help
+6:29:49 PM [vite] (client) hmr update /src/index.css
+6:29:56 PM [vite] (client) hmr update /src/index.css
+6:30:00 PM [vite] (client) hmr update /src/index.css, /src/pages/Registry.tsx, /src/pages/Dashboard.tsx, /src/components/ValidationReportPanel.tsx, /src/components/AgentExecutionStream.tsx
+6:30:56 PM [vite] (client) hmr update /src/index.css, /src/components/ValidationReportPanel.tsx
+6:31:58 PM [vite] (client) hmr update /src/pages/Registry.tsx, /src/index.css
+6:32:00 PM [vite] (client) hmr update /src/pages/Dashboard.tsx, /src/index.css

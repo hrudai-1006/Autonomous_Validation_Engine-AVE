@@ -1,0 +1,12 @@
+
+> frontend@0.0.0 dev
+> vite --port 5500
+
+
+  VITE v7.3.1  ready in 134 ms
+
+  ➜  Local:   http://localhost:5500/
+  ➜  Network: http://10.237.113.163:5500/
+  ➜  press h + enter to show help
+6:50:49 PM [vite] (client) hmr update /src/index.css, /src/pages/SecretsManager.tsx, /src/pages/ConfidenceExplainer.tsx, /src/pages/Registry.tsx, /src/pages/Dashboard.tsx, /src/pages/Configuration.tsx, /src/components/AgentExecutionStream.tsx, /src/components/ValidationReportPanel.tsx
+6:50:55 PM [vite] (client) hmr update /src/index.css, /src/pages/SecretsManager.tsx, /src/pages/ConfidenceExplainer.tsx, /src/pages/Registry.tsx, /src/pages/Dashboard.tsx, /src/pages/Configuration.tsx, /src/components/AgentExecutionStream.tsx, /src/components/ValidationReportPanel.tsx

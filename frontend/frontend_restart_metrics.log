@@ -1,0 +1,376 @@
+
+> frontend@0.0.0 dev
+> vite --port 5173
+
+
+  VITE v7.3.1  ready in 109 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.218.83.163:5173/
+  ➜  press h + enter to show help
+7:46:59 PM [vite] (client) hmr update /src/pages/Dashboard.tsx, /src/index.css
+7:49:27 PM [vite] (client) hmr update /src/pages/Registry.tsx, /src/index.css
+7:49:46 PM [vite] (client) hmr update /src/pages/Registry.tsx, /src/index.css
+7:49:51 PM [vite] (client) hmr update /src/pages/Registry.tsx, /src/index.css
+7:54:07 PM [vite] (client) hmr update /src/pages/Dashboard.tsx, /src/index.css
+7:54:09 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+7:54:11 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+7:54:25 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+7:54:29 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+8:00:50 PM [vite] (client) hmr update /src/index.css, /src/pages/Dashboard.tsx, /src/pages/Registry.tsx, /src/components/AgentExecutionStream.tsx, /src/components/ValidationReportPanel.tsx
+8:00:54 PM [vite] (client) hmr update /src/index.css, /src/pages/Dashboard.tsx, /src/pages/Registry.tsx, /src/components/AgentExecutionStream.tsx, /src/components/ValidationReportPanel.tsx
+8:00:57 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css
+8:00:57 PM [vite] Internal server error: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx: Identifier 'useState' has already been declared. (7:20)
+
+   5 | import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+   6 | import { fetchConfig, updateConfig } from '../api/client';
+>  7 | import { useEffect, useState } from 'react';
+     |                     ^
+   8 |
+   9 | const Configuration = () => {
+  10 |     const queryClient = useQueryClient();
+  Plugin: vite:react-babel
+  File: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx:7:20
+  5  |  import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+  6  |  import { fetchConfig, updateConfig } from '../api/client';
+  7  |  import { useEffect, useState } from 'react';
+     |                      ^
+  8  |  
+  9  |  const Configuration = () => {
+      at constructor (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.declareName (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:4866:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14266:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14419:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10148:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14398:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14242:37)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10126:18)
+      at parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:261:32)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:189:28
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:113:33
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:287:14)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+8:00:58 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css
+8:00:58 PM [vite] Internal server error: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx: Identifier 'useState' has already been declared. (7:20)
+
+   5 | import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+   6 | import { fetchConfig, updateConfig } from '../api/client';
+>  7 | import { useEffect, useState } from 'react';
+     |                     ^
+   8 |
+   9 | const Configuration = () => {
+  10 |     const queryClient = useQueryClient();
+  Plugin: vite:react-babel
+  File: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx:7:20
+  5  |  import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+  6  |  import { fetchConfig, updateConfig } from '../api/client';
+  7  |  import { useEffect, useState } from 'react';
+     |                      ^
+  8  |  
+  9  |  const Configuration = () => {
+      at constructor (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.declareName (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:4866:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14266:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14419:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10148:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14398:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14242:37)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10126:18)
+      at parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:261:32)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:189:28
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:113:33
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:287:14)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+8:01:02 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css
+8:01:02 PM [vite] Internal server error: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx: Identifier 'useState' has already been declared. (7:20)
+
+   5 | import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+   6 | import { fetchConfig, updateConfig } from '../api/client';
+>  7 | import { useEffect, useState } from 'react';
+     |                     ^
+   8 |
+   9 | const Configuration = () => {
+  10 |     const queryClient = useQueryClient();
+  Plugin: vite:react-babel
+  File: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx:7:20
+  5  |  import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+  6  |  import { fetchConfig, updateConfig } from '../api/client';
+  7  |  import { useEffect, useState } from 'react';
+     |                      ^
+  8  |  
+  9  |  const Configuration = () => {
+      at constructor (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.declareName (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:4866:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14266:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14419:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10148:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14398:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14242:37)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10126:18)
+      at parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:261:32)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:189:28
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:113:33
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:287:14)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+8:01:06 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css
+8:01:06 PM [vite] Internal server error: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx: Identifier 'useState' has already been declared. (7:20)
+
+   5 | import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+   6 | import { fetchConfig, updateConfig } from '../api/client';
+>  7 | import { useEffect, useState } from 'react';
+     |                     ^
+   8 |
+   9 | const Configuration = () => {
+  10 |     const queryClient = useQueryClient();
+  Plugin: vite:react-babel
+  File: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx:7:20
+  5  |  import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+  6  |  import { fetchConfig, updateConfig } from '../api/client';
+  7  |  import { useEffect, useState } from 'react';
+     |                      ^
+  8  |  
+  9  |  const Configuration = () => {
+      at constructor (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.declareName (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:4866:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14266:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14419:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10148:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14398:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14242:37)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10126:18)
+      at parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:261:32)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:189:28
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:113:33
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:287:14)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+8:01:09 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css
+8:01:09 PM [vite] Internal server error: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx: Identifier 'useState' has already been declared. (7:20)
+
+   5 | import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+   6 | import { fetchConfig, updateConfig } from '../api/client';
+>  7 | import { useEffect, useState } from 'react';
+     |                     ^
+   8 |
+   9 | const Configuration = () => {
+  10 |     const queryClient = useQueryClient();
+  Plugin: vite:react-babel
+  File: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx:7:20
+  5  |  import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+  6  |  import { fetchConfig, updateConfig } from '../api/client';
+  7  |  import { useEffect, useState } from 'react';
+     |                      ^
+  8  |  
+  9  |  const Configuration = () => {
+      at constructor (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.declareName (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:4866:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14266:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14419:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10148:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14398:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14242:37)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10126:18)
+      at parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:261:32)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:189:28
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:113:33
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:287:14)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+8:01:11 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css
+8:01:11 PM [vite] Internal server error: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx: Identifier 'useState' has already been declared. (7:20)
+
+   5 | import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+   6 | import { fetchConfig, updateConfig } from '../api/client';
+>  7 | import { useEffect, useState } from 'react';
+     |                     ^
+   8 |
+   9 | const Configuration = () => {
+  10 |     const queryClient = useQueryClient();
+  Plugin: vite:react-babel
+  File: /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/src/pages/Configuration.tsx:7:20
+  5  |  import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+  6  |  import { fetchConfig, updateConfig } from '../api/client';
+  7  |  import { useEffect, useState } from 'react';
+     |                      ^
+  8  |  
+  9  |  const Configuration = () => {
+      at constructor (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptScopeHandler.declareName (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:4866:21)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7567:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7563:12)
+      at TypeScriptParserMixin.checkLVal (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:7500:12)
+      at TypeScriptParserMixin.finishImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14266:10)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14419:17)
+      at TypeScriptParserMixin.parseImportSpecifier (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10148:18)
+      at TypeScriptParserMixin.parseNamedImportSpecifiers (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14398:36)
+      at TypeScriptParserMixin.parseImportSpecifiersAndAfter (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14242:37)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14235:17)
+      at TypeScriptParserMixin.parseImport (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9353:26)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12876:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at TypeScriptParserMixin.parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:10126:18)
+      at parse (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:261:32)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:189:28
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:113:33
+      at step (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:287:14)
+      at /Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/hrudai/Desktop/CODE GROUND/AVE/frontend/node_modules/gensync/index.js:223:11)
+8:01:12 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css

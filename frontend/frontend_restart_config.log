@@ -1,0 +1,11 @@
+
+> frontend@0.0.0 dev
+> vite --port 5173
+
+
+  VITE v7.3.1  ready in 115 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.218.83.163:5173/
+  ➜  press h + enter to show help
+8:01:25 PM [vite] (client) hmr update /src/pages/Configuration.tsx, /src/index.css
