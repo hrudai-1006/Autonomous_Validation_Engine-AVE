@@ -1,0 +1,2463 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12960] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [13014]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:59300 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59297 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59299 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59299 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59299 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59299 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59299 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59299 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59316 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59298 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59330 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59335 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "POST /api/validate HTTP/1.1" 200 OK
+[18:02:23] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:59336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59335 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59315 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59335 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59339 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[18:02:25] System: Saved temp file: d8cdc6c8-98f9-497b-ab29-034e02fc8093_Screenshot 2026-02-03 at 4.15.17 PM.png (95057 bytes)
+[18:02:26] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  05b1956b-db3c-469c-8a  │
+│  37-ec5404a80929        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/d8cdc6c8-98f9  │
+│  -497b-ab29-034e02fc80  │
+│  93_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/d8cdc6c8-98f9-  │
+│  497b-ab29-034e02fc809  │
+│  3_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  ID:                    │
+│  89b05a4f-3165-4eae-83  │
+│  18-2ba567b269b0        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/d8cdc6c8-98f9  │
+│  -497b-ab29-034e02fc80  │
+│  93_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/d8cdc6c8-98f9-  │
+│  497b-ab29-034e02fc809  │
+│  3_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:59339 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ 🔧 Tool Execution Star─╮
+│                         │
+│  Tool:                  │
+│  medical_file_exaction  │
+│  _tool                  │
+│  Args: {'file_path':    │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/d8cdc6c8-98f9  │
+│  -497b-ab29-034e02fc80  │
+│  93_Screenshot          │
+│  2026-02-03 at          │
+│  4.15.17\u202fPM.png'}  │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1770640349.150753  447716 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+INFO:     127.0.0.1:59339 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59335 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/providers HTTP/1.1" 200 OK
+[32mTool medical_file_exaction_tool executed with result: [
+  {
+    "full_name": "John Doe",
+    "npi": "1234567890",
+    "specialty": "Cardiology",
+    "address": "123 Medical Center Dr",
+    "license": null
+  },
+  {
+    "full_name": "Sarah Connor",
+    "np...[0m
+╭─ ✅ Tool Execution Comp─╮
+│                         │
+│  Tool Completed         │
+│  Tool:                  │
+│  medical_file_exaction  │
+│  _tool                  │
+│  Output: [              │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    },                   │
+│    {                    │
+│      "full_name":       │
+│  "Sarah Connor",        │
+│      "npi":             │
+│  "9876543210",          │
+│      "specialty":       │
+│  "General Practice",    │
+│      "address": "456    │
+│  Terminator Lane",      │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:59347 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Final Answer:          │
+│  [                      │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file at                │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/d8cdc6c8-98f9  │
+│  -497b-ab29-034e02fc80  │
+│  93_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/d8cdc6c8-98f9-  │
+│  497b-ab29-034e02fc809  │
+│  3_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  05b1956b-db3c-469c-8a  │
+│  37-ec5404a80929        │
+│  Final Output: [        │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[18:02:34] Extraction Agent: Extraction complete: [
+  {
+    "full_name": "John Doe",
+    "npi": "1234567890",
+    "specialty": "Cardiology",
+    "address": "123 Medical Center Dr",
+    "license": null
+  }
+]...
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+[18:02:34] CrewAI Orchestrator: Found 1 providers to validate
+INFO:     127.0.0.1:59336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[18:02:36] CrewAI Orchestrator: [1/1] Processing: John Doe
+INFO:     127.0.0.1:59347 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[18:02:36] Enrichment Agent: Looking up registry data for: John Doe
+INFO:     127.0.0.1:59336 - "GET /api/providers HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  4875ac35-04a5-4da8-b7  │
+│  6c-285bda0b0431        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: John    │
+│  Doe                    │
+│  NPI (claimed):         │
+│  1234567890             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│  ID:                    │
+│  d007ebaf-595b-4e73-ad  │
+│  f8-16ce41ad18a1        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Task: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: John    │
+│  Doe                    │
+│  NPI (claimed):         │
+│  1234567890             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:59336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ 🔧 Tool Execution Star─╮
+│                         │
+│  Tool:                  │
+│  npi_registry_search    │
+│  Args: {'npi_number':   │
+│  '1234567890'}          │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:59347 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[32mTool npi_registry_search executed with result: {"npi_number": "1234567890", "registry_found": false, "status": "Not Found"}...[0m
+╭─ ✅ Tool Execution Comp─╮
+│                         │
+│  Tool Completed         │
+│  Tool:                  │
+│  npi_registry_search    │
+│  Output:                │
+│  {"npi_number":         │
+│  "1234567890",          │
+│  "registry_found":      │
+│  false, "status": "Not  │
+│  Found"}                │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Final Answer:          │
+│  {"npi_number":         │
+│  "1234567890",          │
+│  "registry_found":      │
+│  false, "status": "Not  │
+│  Found"}                │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Find the official NPI  │
+│  registry record for    │
+│  this provider:         │
+│                         │
+│  Provider Name: John    │
+│  Doe                    │
+│  NPI (claimed):         │
+│  1234567890             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│  Agent:                 │
+│  Registry Data          │
+│  Enricher               │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  4875ac35-04a5-4da8-b7  │
+│  6c-285bda0b0431        │
+│  Final Output:          │
+│  {"npi_number":         │
+│  "1234567890",          │
+│  "registry_found":      │
+│  false, "status": "Not  │
+│  Found"}                │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[18:02:41] Enrichment Agent: Registry lookup complete
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:59352 - "GET /api/logs HTTP/1.1" 200 OK
+[18:02:42] QA Agent: Validating: John Doe
+INFO:     127.0.0.1:59355 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  98e99131-ed54-45f5-87  │
+│  bc-93db155f0c45        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'npi_number':         │
+│  '1234567890',          │
+│  'registry_found':      │
+│  False, 'status': 'Not  │
+│  Found'}                │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - Start at 100%        │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  79%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  ID:                    │
+│  203e3c75-2656-4315-a0  │
+│  c5-fa11f2a15fde        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Task: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'npi_number':         │
+│  '1234567890',          │
+│  'registry_found':      │
+│  False, 'status': 'Not  │
+│  Found'}                │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - Start at 100%        │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  79%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│                         │
+╰─────────────────────────╯
+
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Final Answer:          │
+│  ```json                │
+│  {                      │
+│    "confidence_score":  │
+│  40,                    │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "Provider Not Found    │
+│  in Registry",          │
+│        "extracted": {   │
+│          "full_name":   │
+│  "John Doe",            │
+│          "npi":         │
+│  "1234567890",          │
+│          "specialty":   │
+│  "Cardiology",          │
+│          "address":     │
+│  "123 Medical Center    │
+│  Dr",                   │
+│          "license":     │
+│  null                   │
+│        },               │
+│        "registry": {    │
+│          "npi_number":  │
+│  "1234567890",          │
+│          "registry_fou  │
+│  nd": false,            │
+│          "status":      │
+│  "Not Found"            │
+│        },               │
+│        "penalty": 60    │
+│      }                  │
+│    ],                   │
+│    "summary": "The      │
+│  provider was not       │
+│  found in the           │
+│  registry. All          │
+│  extracted provider     │
+│  details are            │
+│  considered unverified  │
+│  against the            │
+│  registry."             │
+│  }                      │
+│  ```                    │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Compare the extracted  │
+│  provider data with     │
+│  the official registry  │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'npi_number':         │
+│  '1234567890',          │
+│  'registry_found':      │
+│  False, 'status': 'Not  │
+│  Found'}                │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - Start at 100%        │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  79%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  Agent:                 │
+│  Quality Assurance      │
+│  Validator              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  98e99131-ed54-45f5-87  │
+│  bc-93db155f0c45        │
+│  Final Output: ```json  │
+│  {                      │
+│    "confidence_score":  │
+│  40,                    │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "Provider Not Found    │
+│  in Registry",          │
+│        "extracted": {   │
+│          "full_name":   │
+│  "John Doe",            │
+│          "npi":         │
+│  "1234567890",          │
+│          "specialty":   │
+│  "Cardiology",          │
+│          "address":     │
+│  "123 Medical Center    │
+│  Dr",                   │
+│          "license":     │
+│  null                   │
+│        },               │
+│        "registry": {    │
+│          "npi_number":  │
+│  "1234567890",          │
+│          "registry_fou  │
+│  nd": false,            │
+│          "status":      │
+│  "Not Found"            │
+│        },               │
+│        "penalty": 60    │
+│      }                  │
+│    ],                   │
+│    "summary": "The      │
+│  provider was not       │
+│  found in the           │
+│  registry. All          │
+│  extracted provider     │
+│  details are            │
+│  considered unverified  │
+│  against the            │
+│  registry."             │
+│  }                      │
+│  ```                    │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[18:02:44] QA Agent: Validation complete for: John Doe
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:59336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[18:02:46] CrewAI Orchestrator: Saved: John Doe -> Flagged (40%)
+INFO:     127.0.0.1:59347 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[18:02:48] CrewAI Orchestrator: Workflow complete. Processed 1/1 providers.
+INFO:     127.0.0.1:59347 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/validation/8/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59336 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59347 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59347 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59358 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59359 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59357 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59358 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59357 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/validation/8/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59357 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59359 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59357 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59357 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59356 - "GET /api/validation/8/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59357 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59356 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59362 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59362 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59356 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59363 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59365 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59365 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59363 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59363 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59364 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59363 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59364 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59384 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59385 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59385 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59384 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59385 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59384 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59388 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59388 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59366 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59388 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59394 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/validation/8/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59389 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59387 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59394 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59387 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59394 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59394 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59394 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59397 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59399 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59400 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59400 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59398 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/validation/7/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/validation/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59402 - "GET /api/validation/6/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59401 - "GET /api/validation/6 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 4 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'registry_found', 'extracted': 'NPI found in registry data is not explicitly stated, but specialty and address were present in extracted data.', 'registry': 'False', 'penalty': 10}}
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 1), 'msg': 'Input should be a valid string', 'input': {'field': 'specialty', 'extracted': 'Internal Medicine', 'registry': 'Not provided', 'penalty': 10}}
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 2), 'msg': 'Input should be a valid string', 'input': {'field': 'address', 'extracted': '2131 S BRENTWOOD BLVD, SUITE 100, SPRINGFIELD, IL 62704', 'registry': 'Not provided', 'penalty': 5}}
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 3), 'msg': 'Input should be a valid string', 'input': {'field': 'license', 'extracted': '036.120343', 'registry': 'Not provided', 'penalty': 15}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59397 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59402 - "GET /api/validation/6 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 4 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'registry_found', 'extracted': 'NPI found in registry data is not explicitly stated, but specialty and address were present in extracted data.', 'registry': 'False', 'penalty': 10}}
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 1), 'msg': 'Input should be a valid string', 'input': {'field': 'specialty', 'extracted': 'Internal Medicine', 'registry': 'Not provided', 'penalty': 10}}
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 2), 'msg': 'Input should be a valid string', 'input': {'field': 'address', 'extracted': '2131 S BRENTWOOD BLVD, SUITE 100, SPRINGFIELD, IL 62704', 'registry': 'Not provided', 'penalty': 5}}
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 3), 'msg': 'Input should be a valid string', 'input': {'field': 'license', 'extracted': '036.120343', 'registry': 'Not provided', 'penalty': 15}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59397 - "GET /api/validation/8/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59403 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59404 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59406 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59406 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59405 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59403 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59404 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59404 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59405 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59403 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59403 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59405 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59403 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59403 - "GET /api/validation/8 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 452, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 278, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'string_type', 'loc': ('response', 'discrepancies', 0), 'msg': 'Input should be a valid string', 'input': {'field': 'Provider Not Found in Registry', 'extracted': {'full_name': 'John Doe', 'npi': '1234567890', 'specialty': 'Cardiology', 'address': '123 Medical Center Dr', 'license': None}, 'registry': {'npi_number': '1234567890', 'registry_found': False, 'status': 'Not Found'}, 'penalty': 60}}
+
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 66, in get_validation_by_id
+    GET /api/validation/{validation_id}
+INFO:     127.0.0.1:59405 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59405 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59417 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59416 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59416 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59416 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59416 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59416 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59416 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59416 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59422 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59422 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59422 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59424 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59432 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59445 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59444 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59451 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59451 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59451 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59449 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59450 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59456 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59455 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59456 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59455 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59456 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59455 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59452 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59462 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59464 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59458 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59465 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59461 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/schemas.py'. Reloading...
+INFO:     127.0.0.1:59461 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:59465 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13014]

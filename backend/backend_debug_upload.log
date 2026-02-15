@@ -1,0 +1,668 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12583] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [12636]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/crew.py'. Reloading...
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [12652]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:59188 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59185 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59187 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59186 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59206 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59201 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "POST /api/validate HTTP/1.1" 200 OK
+[17:59:34] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:59210 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[17:59:35] System: Saved temp file: 13229041-9d34-42a3-b585-ea4de1845c4e_Screenshot 2026-02-03 at 4.15.17 PM.png (95057 bytes)
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/providers HTTP/1.1" 200 OK
+[17:59:36] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  9ff451cc-bed4-436e-97  │
+│  1a-131488185c77        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file is provided   │
+│  as an image            │
+│  attachment.            │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  ID:                    │
+│  20d0f02c-913f-4295-bb  │
+│  31-83712e51b1fd        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file is provided   │
+│  as an image            │
+│  attachment.            │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Final Answer:          │
+│  I am sorry, but I      │
+│  cannot process image   │
+│  files. Please provide  │
+│  the document in a      │
+│  text-based format or   │
+│  as a PDF.              │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file 'Screenshot       │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file is provided   │
+│  as an image            │
+│  attachment.            │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  9ff451cc-bed4-436e-97  │
+│  1a-131488185c77        │
+│  Final Output: I am     │
+│  sorry, but I cannot    │
+│  process image files.   │
+│  Please provide the     │
+│  document in a          │
+│  text-based format or   │
+│  as a PDF.              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[17:59:38] Extraction Agent: Extraction complete: I am sorry, but I cannot process image files. Please provide the document in a text-based format or as a PDF....
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:59202 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[17:59:38] CrewAI Orchestrator: Failed to parse extraction result: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:59202 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59221 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59221 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59221 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59227 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59227 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59227 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "POST /api/validate HTTP/1.1" 200 OK
+[18:00:14] CrewAI Orchestrator: Starting validation workflow for: provider_batch_001 copy.csv
+INFO:     127.0.0.1:59228 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59210 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59212 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[18:00:16] System: Saved temp file: c2f74a35-3ece-40e2-901a-48cd671bccc2_provider_batch_001 copy.csv (484 bytes)
+INFO:     127.0.0.1:59229 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[18:00:16] Extraction Agent: Processing file: provider_batch_001 copy.csv
+INFO:     127.0.0.1:59229 - "GET /api/logs HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  107cdbee-2254-4ecf-b6  │
+│  43-7ad9edbc33bc        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file          │
+│  'provider_batch_001    │
+│  copy.csv' and extract  │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file is provided   │
+│  as an image            │
+│  attachment.            │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  ID:                    │
+│  4c322109-b938-4b9e-9c  │
+│  99-197b1db966b7        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'provider_batch_001    │
+│  copy.csv' and extract  │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file is provided   │
+│  as an image            │
+│  attachment.            │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:59229 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Final Answer:          │
+│  I am sorry, but I      │
+│  cannot process CSV     │
+│  files. Please provide  │
+│  the document in a      │
+│  text-based format or   │
+│  as a PDF.              │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file                   │
+│  'provider_batch_001    │
+│  copy.csv' and extract  │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file is provided   │
+│  as an image            │
+│  attachment.            │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  107cdbee-2254-4ecf-b6  │
+│  43-7ad9edbc33bc        │
+│  Final Output: I am     │
+│  sorry, but I cannot    │
+│  process CSV files.     │
+│  Please provide the     │
+│  document in a          │
+│  text-based format or   │
+│  as a PDF.              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[18:00:18] Extraction Agent: Extraction complete: I am sorry, but I cannot process CSV files. Please provide the document in a text-based format or as a PDF....
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+[18:00:19] CrewAI Orchestrator: Failed to parse extraction result: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:59229 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59229 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59238 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59237 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59237 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59237 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59237 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59237 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59237 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59239 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/logs HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/tools/extraction.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:59240 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12652]
+WARNING:  WatchFiles detected changes in 'app/tools/extraction.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [12761]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crew/tasks.py', 'app/tools/extraction.py', 'app/crew/agents.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [12765]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crew/tasks.py', 'app/crew/agents.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [12766]
+INFO:     Waiting for application startup.

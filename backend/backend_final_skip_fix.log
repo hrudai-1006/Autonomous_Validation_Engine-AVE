@@ -1,0 +1,1743 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [17291] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [17345]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/crew.py'. Reloading...
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [17357]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:60800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60798 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60797 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60799 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60799 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60799 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60799 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60799 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60797 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60799 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60801 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60801 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60801 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60801 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60801 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60801 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60801 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60821 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "POST /api/jobs/29/cancel HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60828 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60828 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60828 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60822 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60832 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60829 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60831 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "OPTIONS /api/providers/15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "DELETE /api/providers/15 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60834 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60834 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60834 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "POST /api/validate HTTP/1.1" 200 OK
+[18:48:03] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:60830 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60835 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/logs HTTP/1.1" 200 OK
+[18:48:05] System: Saved temp file: 2e7ba7df-9c73-408e-be9a-beeff7851bb6_Screenshot 2026-02-03 at 4.15.17 PM.png (95057 bytes)
+INFO:     127.0.0.1:60830 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60834 - "GET /api/providers HTTP/1.1" 200 OK
+[18:48:06] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  0e389988-26f5-4c47-af  │
+│  0d-94a34a255616        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/2e7ba7df-9c73  │
+│  -408e-be9a-beeff7851b  │
+│  b6_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ALL providers  │
+│  found in the           │
+│  document.              │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/2e7ba7df-9c73-  │
+│  408e-be9a-beeff7851bb  │
+│  6_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  ID:                    │
+│  4dfe9402-22fe-4197-bf  │
+│  2a-f6923f5f6abb        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/2e7ba7df-9c73  │
+│  -408e-be9a-beeff7851b  │
+│  b6_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ALL providers  │
+│  found in the           │
+│  document.              │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/2e7ba7df-9c73-  │
+│  408e-be9a-beeff7851bb  │
+│  6_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60834 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60830 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ 🔧 Tool Execution Star─╮
+│                         │
+│  Tool:                  │
+│  medical_file_exaction  │
+│  _tool                  │
+│  Args: {'file_path':    │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/2e7ba7df-9c73  │
+│  -408e-be9a-beeff7851b  │
+│  b6_Screenshot          │
+│  2026-02-03 at          │
+│  4.15.17\u202fPM.png'}  │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1770643089.671711  491013 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+INFO:     127.0.0.1:60830 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60834 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60834 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[32mTool medical_file_exaction_tool executed with result: [
+  {
+    "full_name": "John Doe",
+    "npi": "1234567890",
+    "specialty": "Cardiology",
+    "address": "123 Medical Center Dr",
+    "license": null
+  },
+  {
+    "full_name": "Sarah Connor",
+    "np...[0m
+╭─ ✅ Tool Execution Comp─╮
+│                         │
+│  Tool Completed         │
+│  Tool:                  │
+│  medical_file_exaction  │
+│  _tool                  │
+│  Output: [              │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    },                   │
+│    {                    │
+│      "full_name":       │
+│  "Sarah Connor",        │
+│      "npi":             │
+│  "9876543210",          │
+│      "specialty":       │
+│  "General Practice",    │
+│      "address": "456    │
+│  Terminator Lane",      │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60834 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Final Answer:          │
+│  [                      │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    },                   │
+│    {                    │
+│      "full_name":       │
+│  "Sarah Connor",        │
+│      "npi":             │
+│  "9876543210",          │
+│      "specialty":       │
+│  "General Practice",    │
+│      "address": "456    │
+│  Terminator Lane",      │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file at                │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/2e7ba7df-9c73  │
+│  -408e-be9a-beeff7851b  │
+│  b6_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ALL providers  │
+│  found in the           │
+│  document.              │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/2e7ba7df-9c73-  │
+│  408e-be9a-beeff7851bb  │
+│  6_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  0e389988-26f5-4c47-af  │
+│  0d-94a34a255616        │
+│  Final Output: [        │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    },                   │
+│    {                    │
+│      "full_name":       │
+│  "Sarah Connor",        │
+│      "npi":             │
+│  "9876543210",          │
+│      "specialty":       │
+│  "General Practice",    │
+│      "address": "456    │
+│  Terminator Lane",      │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[18:48:18] Extraction Agent: Extraction complete: [
+  {
+    "full_name": "John Doe",
+    "npi": "1234567890",
+    "specialty": "Cardiology",
+    "address": "123 Medical Center Dr",
+    "license": null
+  },
+  {
+    "full_name": "Sarah Connor",
+    "np...
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+[18:48:18] CrewAI Orchestrator: Found 2 providers to validate
+INFO:     127.0.0.1:60838 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[18:48:20] CrewAI Orchestrator: [1/2] Processing: John Doe
+[18:48:21] Enrichment Agent: Looking up registry data for: John Doe
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  a4637890-eb9b-4e9e-92  │
+│  24-1ec227196509        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: John    │
+│  Doe                    │
+│  NPI (claimed):         │
+│  1234567890             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│  ID:                    │
+│  c3648d0e-0af3-4961-a2  │
+│  0b-a6ded0fae640        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Task: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: John    │
+│  Doe                    │
+│  NPI (claimed):         │
+│  1234567890             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60848 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ 🔧 Tool Execution Star─╮
+│                         │
+│  Tool:                  │
+│  npi_registry_search    │
+│  Args: {'npi_number':   │
+│  '1234567890'}          │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[32mTool npi_registry_search executed with result: {"npi_number": "1234567890", "registry_found": false, "status": "Not Found"}...[0m
+[93mMaximum iterations reached. Requesting final answer.[0m
+╭─ ✅ Tool Execution Comp─╮
+│                         │
+│  Tool Completed         │
+│  Tool:                  │
+│  npi_registry_search    │
+│  Output:                │
+│  {"npi_number":         │
+│  "1234567890",          │
+│  "registry_found":      │
+│  false, "status": "Not  │
+│  Found"}                │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60838 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Final Answer:          │
+│                         │
+│                         │
+│  ```json                │
+│  {                      │
+│    "npi_number":        │
+│  "1234567890",          │
+│    "registry_found":    │
+│  false,                 │
+│    "status": "Not       │
+│  Found"                 │
+│  }                      │
+│  ```                    │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Find the official NPI  │
+│  registry record for    │
+│  this provider:         │
+│                         │
+│  Provider Name: John    │
+│  Doe                    │
+│  NPI (claimed):         │
+│  1234567890             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│  Agent:                 │
+│  Registry Data          │
+│  Enricher               │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  a4637890-eb9b-4e9e-92  │
+│  24-1ec227196509        │
+│  Final Output:          │
+│                         │
+│  ```json                │
+│  {                      │
+│    "npi_number":        │
+│  "1234567890",          │
+│    "registry_found":    │
+│  false,                 │
+│    "status": "Not       │
+│  Found"                 │
+│  }                      │
+│  ```                    │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[18:48:26] Enrichment Agent: Registry lookup complete
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:60838 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60851 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[18:48:27] QA Agent: Validating: John Doe
+INFO:     127.0.0.1:60848 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  196164f1-bf88-4076-81  │
+│  17-cfcd0311d6b1        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'error': 'Could not   │
+│  parse registry         │
+│  response'}             │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - CRITICAL: If         │
+│  'registry_found' is    │
+│  false or REGISTRY      │
+│  DATA is empty/error    │
+│  -> Score = 0. Stop     │
+│  there.                 │
+│  - Otherwise, start at  │
+│  100% and apply         │
+│  penalties:             │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  79%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  ID:                    │
+│  44898907-9dd3-4222-bb  │
+│  ac-4cae792df87f        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Task: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'error': 'Could not   │
+│  parse registry         │
+│  response'}             │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - CRITICAL: If         │
+│  'registry_found' is    │
+│  false or REGISTRY      │
+│  DATA is empty/error    │
+│  -> Score = 0. Stop     │
+│  there.                 │
+│  - Otherwise, start at  │
+│  100% and apply         │
+│  penalties:             │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  79%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60848 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Final Answer:          │
+│  ```json                │
+│  {                      │
+│    "confidence_score":  │
+│  0,                     │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "registry_data",       │
+│        "extracted":     │
+│  "N/A",                 │
+│        "registry":      │
+│  "Could not parse       │
+│  registry response",    │
+│        "penalty": 100,  │
+│        "reason":        │
+│  "Critical error:       │
+│  Registry data could    │
+│  not be parsed."        │
+│      }                  │
+│    ],                   │
+│    "summary":           │
+│  "Critical error: The   │
+│  registry data could    │
+│  not be parsed,         │
+│  resulting in a         │
+│  confidence score of    │
+│  0. No further          │
+│  field-level            │
+│  comparison could be    │
+│  performed."            │
+│  }                      │
+│  ```                    │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Compare the extracted  │
+│  provider data with     │
+│  the official registry  │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'error': 'Could not   │
+│  parse registry         │
+│  response'}             │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - CRITICAL: If         │
+│  'registry_found' is    │
+│  false or REGISTRY      │
+│  DATA is empty/error    │
+│  -> Score = 0. Stop     │
+│  there.                 │
+│  - Otherwise, start at  │
+│  100% and apply         │
+│  penalties:             │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  79%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  Agent:                 │
+│  Quality Assurance      │
+│  Validator              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  196164f1-bf88-4076-81  │
+│  17-cfcd0311d6b1        │
+│  Final Output: ```json  │
+│  {                      │
+│    "confidence_score":  │
+│  0,                     │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "registry_data",       │
+│        "extracted":     │
+│  "N/A",                 │
+│        "registry":      │
+│  "Could not parse       │
+│  registry response",    │
+│        "penalty": 100,  │
+│        "reason":        │
+│  "Critical error:       │
+│  Registry data could    │
+│  not be parsed."        │
+│      }                  │
+│    ],                   │
+│    "summary":           │
+│  "Critical error: The   │
+│  registry data could    │
+│  not be parsed,         │
+│  resulting in a         │
+│  confidence score of    │
+│  0. No further          │
+│  field-level            │
+│  comparison could be    │
+│  performed."            │
+│  }                      │
+│  ```                    │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[18:48:30] QA Agent: Validation complete for: John Doe
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:60848 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/logs HTTP/1.1" 200 OK
+[18:48:37] CrewAI Orchestrator: Saved: John Doe -> Flagged (0%)
+INFO:     127.0.0.1:60848 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60853 - "GET /api/logs HTTP/1.1" 200 OK
+[18:48:39] CrewAI Orchestrator: [2/2] Processing: Sarah Connor
+INFO:     127.0.0.1:60848 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[18:48:40] Enrichment Agent: Looking up registry data for: Sarah Connor
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  265e9b17-80f4-4659-8f  │
+│  06-e439b88fbd18        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: Sarah   │
+│  Connor                 │
+│  NPI (claimed):         │
+│  9876543210             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│  ID:                    │
+│  cf8d83b3-f474-4468-9d  │
+│  e9-9ba997edae9a        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[93mMaximum iterations reached. Requesting final answer.[0m
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Task: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: Sarah   │
+│  Connor                 │
+│  NPI (claimed):         │
+│  9876543210             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60848 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[91mReceived None or empty response from LLM call.[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Invalid response from LLM call - None or empty.[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Invalid response from LLM call - None or empty.[0m
+[93mMaximum iterations reached. Requesting final answer.[0m
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Task: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: Sarah   │
+│  Connor                 │
+│  NPI (claimed):         │
+│  9876543210             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60853 - "GET /api/logs HTTP/1.1" 200 OK
+[91mReceived None or empty response from LLM call.[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Invalid response from LLM call - None or empty.[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Invalid response from LLM call - None or empty.[0m
+[93mMaximum iterations reached. Requesting final answer.[0m
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Task: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: Sarah   │
+│  Connor                 │
+│  NPI (claimed):         │
+│  9876543210             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:60853 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[91mReceived None or empty response from LLM call.[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Invalid response from LLM call - None or empty.[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: Invalid response from LLM call - None or empty.[0m
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'task_failed' closed 
+'agent_execution_started' 
+(expected 'task_started')
+╭──── 📋 Task Failure ────╮
+│                         │
+│  Task Failed            │
+│  Name:                  │
+│  Find the official NPI  │
+│  registry record for    │
+│  this provider:         │
+│                         │
+│  Provider Name: Sarah   │
+│  Connor                 │
+│  NPI (claimed):         │
+│  9876543210             │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  return the JSON from   │
+│  the tool.              │
+│  4.  If the tool        │
+│  returns "Not Found",   │
+│  "registry_found":      │
+│  false, or error,       │
+│  RETURN THAT EXACT      │
+│  STATUS.                │
+│  5.  If NO NPI is       │
+│  provided, RETURN       │
+│  "registry_found":      │
+│  false immediately.     │
+│                         │
+│  CRITICAL RULES:        │
+│  - YOU CANNOT SEARCH    │
+│  BY NAME. The tool      │
+│  requires an NPI.       │
+│  - IF NPI IS MISSING    │
+│  OR INVALID -> RETURN   │
+│  "registry_found":      │
+│  false.                 │
+│  - DO NOT SIMULATE OR   │
+│  MAKE UP DATA.          │
+│  - YOUR JOB IS TO       │
+│  VALIDATE, NOT TO       │
+│  CREATE.                │
+│  Agent:                 │
+│  Registry Data          │
+│  Enricher               │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'crew_kickoff_failed' 
+closed 
+'agent_execution_started' 
+(expected 
+'crew_kickoff_started')
+╭───── Crew Failure ──────╮
+│                         │
+│  Crew Execution Failed  │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  265e9b17-80f4-4659-8f  │
+│  06-e439b88fbd18        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 459, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 568, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        {
+        ^
+    ...<4 lines>...
+        }
+        ^
+    )["output"]
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 207, in invoke
+    formatted_answer = self._invoke_loop()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 305, in _invoke_loop
+    return self._invoke_loop_native_tools()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 579, in _invoke_loop_native_tools
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 480, in _invoke_loop_native_tools
+    formatted_answer = handle_max_iterations_exceeded(
+        None,
+    ...<5 lines>...
+        verbose=self.agent.verbose,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/utilities/agent_utils.py", line 257, in handle_max_iterations_exceeded
+    raise ValueError("Invalid response from LLM call - None or empty.")
+ValueError: Invalid response from LLM call - None or empty.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 459, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 568, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        {
+        ^
+    ...<4 lines>...
+        }
+        ^
+    )["output"]
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 207, in invoke
+    formatted_answer = self._invoke_loop()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 305, in _invoke_loop
+    return self._invoke_loop_native_tools()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 579, in _invoke_loop_native_tools
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 480, in _invoke_loop_native_tools
+    formatted_answer = handle_max_iterations_exceeded(
+        None,
+    ...<5 lines>...
+        verbose=self.agent.verbose,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/utilities/agent_utils.py", line 257, in handle_max_iterations_exceeded
+    raise ValueError("Invalid response from LLM call - None or empty.")
+ValueError: Invalid response from LLM call - None or empty.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 107, in app
+    await response(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/responses.py", line 168, in __call__
+    await self.background()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/background.py", line 42, in __call__
+    await task()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/background.py", line 29, in __call__
+    await run_in_threadpool(self.func, *self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 2476, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 16, in run_crew_task
+    run_validation_crew(file_content, filename, new_db, job_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/crew/crew.py", line 174, in run_validation_crew
+    enrichment_result = enrichment_crew.kickoff()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/crew.py", line 743, in kickoff
+    result = self._run_sequential_process()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/crew.py", line 1150, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/crew.py", line 1236, in _execute_tasks
+    task_output = task.execute_sync(
+        agent=exec_data.agent,
+        context=context,
+        tools=exec_data.tools,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/task.py", line 499, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/task.py", line 740, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/task.py", line 671, in _execute_core
+    result = agent.execute_task(
+        task=self,
+        context=context,
+        tools=tools,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 493, in execute_task
+    result = self.execute_task(task, context, tools)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 493, in execute_task
+    result = self.execute_task(task, context, tools)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 492, in execute_task
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 459, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agent/core.py", line 568, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        {
+        ^
+    ...<4 lines>...
+        }
+        ^
+    )["output"]
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 207, in invoke
+    formatted_answer = self._invoke_loop()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 305, in _invoke_loop
+    return self._invoke_loop_native_tools()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 579, in _invoke_loop_native_tools
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/agents/crew_agent_executor.py", line 480, in _invoke_loop_native_tools
+    formatted_answer = handle_max_iterations_exceeded(
+        None,
+    ...<5 lines>...
+        verbose=self.agent.verbose,
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/crewai/utilities/agent_utils.py", line 257, in handle_max_iterations_exceeded
+    raise ValueError("Invalid response from LLM call - None or empty.")
+ValueError: Invalid response from LLM call - None or empty.
+INFO:     127.0.0.1:60848 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60848 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60855 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60863 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60859 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60863 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60863 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60863 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60863 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60863 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60852 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60867 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60869 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60868 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60869 - "GET /api/validation/14/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60868 - "GET /api/validation/14 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60868 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60869 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60868 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60869 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60882 - "GET /api/logs HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/crew/crew.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:60879 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17357]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [17540]
+INFO:     Waiting for application startup.

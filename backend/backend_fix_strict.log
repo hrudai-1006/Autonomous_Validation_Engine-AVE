@@ -1,0 +1,605 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [10758] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10812]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/tasks.py'. Reloading...
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10818]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/agents.py'. Reloading...
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10902]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:58709 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58710 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58709 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58710 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "POST /api/validate HTTP/1.1" 200 OK
+[17:43:32] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:58712 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58711 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58730 - "GET /api/logs HTTP/1.1" 200 OK
+[17:43:33] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:58712 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/providers HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  f484e2c6-928d-462f-8b  │
+│  23-cf77029761d8        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  ID:                    │
+│  96979ef4-7ffa-4646-ba  │
+│  70-d3cdc1b53497        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Final Answer:          │
+│  I am sorry, but I      │
+│  cannot process the     │
+│  image you provided.    │
+│  The content appears    │
+│  to be a base64         │
+│  encoded string         │
+│  representing a PNG     │
+│  image, which I cannot  │
+│  directly interpret to  │
+│  extract the requested  │
+│  information. Please    │
+│  provide the image in   │
+│  a standard format      │
+│  (like JPG, PNG) or     │
+│  the text content if    │
+│  you have it extracted  │
+│  already.               │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file 'Screenshot       │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  f484e2c6-928d-462f-8b  │
+│  23-cf77029761d8        │
+│  Final Output: I am     │
+│  sorry, but I cannot    │
+│  process the image you  │
+│  provided. The content  │
+│  appears to be a        │
+│  base64 encoded string  │
+│  representing a PNG     │
+│  image, which I cannot  │
+│  directly interpret to  │
+│  extract the requested  │
+│  information. Please    │
+│  provide the image in   │
+│  a standard format      │
+│  (like JPG, PNG) or     │
+│  the text content if    │
+│  you have it extracted  │
+│  already.               │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[17:43:35] Extraction Agent: Extraction complete: I am sorry, but I cannot process the image you provided. The content appears to be a base64 encoded string representing a PNG image, which I cannot directly interpret to extract the requested informat...
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:58729 - "GET /api/logs HTTP/1.1" 200 OK
+[17:43:36] CrewAI Orchestrator: Failed to parse extraction result: Expecting value: line 1 column 1 (char 0)
+INFO:     127.0.0.1:58729 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58712 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58743 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58748 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58748 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58748 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58754 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58754 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58754 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58744 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58752 - "GET /api/logs HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/crew/crew.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:58752 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10902]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10951]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/crew.py'. Reloading...
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crew/tasks.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10954]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crew/tasks.py', 'app/crew/crew.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10955]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crew/tasks.py', 'app/crew/crew.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10956]
+INFO:     Waiting for application startup.

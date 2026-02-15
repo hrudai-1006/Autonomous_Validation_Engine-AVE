@@ -1,0 +1,168 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [16572] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [16625]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/agents.py'. Reloading...
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crew/crew.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [16636]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [16721]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:60594 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60597 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60595 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60595 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60607 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60627 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60627 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60627 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60627 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60627 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60630 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60631 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60632 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60632 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60632 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60632 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60632 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60632 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/tools/extraction.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16721]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [16731]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/agents.py'. Reloading...

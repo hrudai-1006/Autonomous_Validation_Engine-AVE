@@ -1,0 +1,2371 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19029] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [19083]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61500 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61497 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61498 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61499 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61528 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61518 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61501 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61532 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61532 - "POST /api/validate HTTP/1.1" 200 OK
+[19:18:11] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:61529 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61532 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[19:18:13] System: Saved temp file: 09c626ac-28cf-46e1-8840-7f769ecba35a_Screenshot 2026-02-03 at 4.15.17 PM.png (95057 bytes)
+INFO:     127.0.0.1:61533 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[19:18:14] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  94ccdda8-70d6-4147-81  │
+│  21-da89898044b6        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/09c626ac-28cf  │
+│  -46e1-8840-7f769ecba3  │
+│  5a_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/09c626ac-28cf-  │
+│  46e1-8840-7f769ecba35  │
+│  a_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  ID:                    │
+│  b1112bf1-1c57-43a1-a9  │
+│  ef-345c5bc3cf19        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/09c626ac-28cf  │
+│  -46e1-8840-7f769ecba3  │
+│  5a_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/09c626ac-28cf-  │
+│  46e1-8840-7f769ecba35  │
+│  a_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:61534 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/logs HTTP/1.1" 200 OK
+╭─ 🔧 Tool Execution Star─╮
+│                         │
+│  Tool:                  │
+│  medical_file_exaction  │
+│  _tool                  │
+│  Args: {'file_path':    │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/09c626ac-28cf  │
+│  -46e1-8840-7f769ecba3  │
+│  5a_Screenshot          │
+│  2026-02-03 at          │
+│  4.15.17\u202fPM.png'}  │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1770644897.115853  515703 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+INFO:     127.0.0.1:61529 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61533 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61533 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61533 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[32mTool medical_file_exaction_tool executed with result: [
+  {
+    "full_name": "John Doe",
+    "npi": "1234567890",
+    "specialty": "Cardiology",
+    "address": "123 Medical Center Dr",
+    "license": null
+  },
+  {
+    "full_name": "Sarah Connor",
+    "np...[0m
+╭─ ✅ Tool Execution Comp─╮
+│                         │
+│  Tool Completed         │
+│  Tool:                  │
+│  medical_file_exaction  │
+│  _tool                  │
+│  Output: [              │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    },                   │
+│    {                    │
+│      "full_name":       │
+│  "Sarah Connor",        │
+│      "npi":             │
+│  "9876543210",          │
+│      "specialty":       │
+│  "General Practice",    │
+│      "address": "456    │
+│  Terminator Lane",      │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:61533 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Final Answer:          │
+│  ```json                │
+│  [                      │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│  ```                    │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file at                │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/09c626ac-28cf  │
+│  -46e1-8840-7f769ecba3  │
+│  5a_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/09c626ac-28cf-  │
+│  46e1-8840-7f769ecba35  │
+│  a_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  94ccdda8-70d6-4147-81  │
+│  21-da89898044b6        │
+│  Final Output: ```json  │
+│  [                      │
+│    {                    │
+│      "full_name":       │
+│  "John Doe",            │
+│      "npi":             │
+│  "1234567890",          │
+│      "specialty":       │
+│  "Cardiology",          │
+│      "address": "123    │
+│  Medical Center Dr",    │
+│      "license": null    │
+│    }                    │
+│  ]                      │
+│  ```                    │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[19:18:23] Extraction Agent: Extraction complete: ```json
+[
+  {
+    "full_name": "John Doe",
+    "npi": "1234567890",
+    "specialty": "Cardiology",
+    "address": "123 Medical Center Dr",
+    "license": null
+  }
+]
+```...
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:61544 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[19:18:24] CrewAI Orchestrator: Found 1 providers to validate
+INFO:     127.0.0.1:61534 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61544 - "GET /api/logs HTTP/1.1" 200 OK
+[19:18:26] CrewAI Orchestrator: [1/1] Processing: John Doe
+[19:18:26] System: Looking up registry data for: John Doe (Direct)
+INFO:     127.0.0.1:61544 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/logs HTTP/1.1" 200 OK
+[19:18:29] System: Registry lookup complete: Not Found
+INFO:     127.0.0.1:61534 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61544 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61544 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[19:18:31] QA Agent: Validating: John Doe
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  7e108201-31c4-4c9a-a0  │
+│  1c-3053fbca817e        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'npi_number':         │
+│  '1234567890',          │
+│  'registry_found':      │
+│  False, 'status': 'Not  │
+│  Found'}                │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - CRITICAL: If         │
+│  'registry_found' is    │
+│  false or REGISTRY      │
+│  DATA is empty/error    │
+│  -> Score = 0. Stop     │
+│  there.                 │
+│  - Otherwise, start at  │
+│  100% and apply         │
+│  penalties:             │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  73%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  ID:                    │
+│  d63e6c82-a103-4e46-a5  │
+│  c4-d064a9522333        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Task: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'npi_number':         │
+│  '1234567890',          │
+│  'registry_found':      │
+│  False, 'status': 'Not  │
+│  Found'}                │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - CRITICAL: If         │
+│  'registry_found' is    │
+│  false or REGISTRY      │
+│  DATA is empty/error    │
+│  -> Score = 0. Stop     │
+│  there.                 │
+│  - Otherwise, start at  │
+│  100% and apply         │
+│  penalties:             │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  73%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:61544 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61544 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61549 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Final Answer:          │
+│  ```json                │
+│  {                      │
+│    "confidence_score":  │
+│  0,                     │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "registry_found",      │
+│        "extracted":     │
+│  "N/A",                 │
+│        "registry":      │
+│  "False",               │
+│        "reason":        │
+│  "CRITICAL: Provider    │
+│  not found in the       │
+│  official registry.     │
+│  Confidence score set   │
+│  to 0."                 │
+│      }                  │
+│    ],                   │
+│    "summary":           │
+│  "CRITICAL: The         │
+│  provider was not       │
+│  found in the official  │
+│  registry data          │
+│  ('registry_found' is   │
+│  false). As per rules,  │
+│  the confidence score   │
+│  is set to 0, and the   │
+│  status is Flagged."    │
+│  }                      │
+│  ```                    │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Compare the extracted  │
+│  provider data with     │
+│  the official registry  │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'John    │
+│  Doe', 'npi':           │
+│  '1234567890',          │
+│  'specialty':           │
+│  'Cardiology',          │
+│  'address': '123        │
+│  Medical Center Dr',    │
+│  'license': None}       │
+│                         │
+│  REGISTRY DATA:         │
+│  {'npi_number':         │
+│  '1234567890',          │
+│  'registry_found':      │
+│  False, 'status': 'Not  │
+│  Found'}                │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - CRITICAL: If         │
+│  'registry_found' is    │
+│  false or REGISTRY      │
+│  DATA is empty/error    │
+│  -> Score = 0. Stop     │
+│  there.                 │
+│  - Otherwise, start at  │
+│  100% and apply         │
+│  penalties:             │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  73%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  Agent:                 │
+│  Quality Assurance      │
+│  Validator              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  7e108201-31c4-4c9a-a0  │
+│  1c-3053fbca817e        │
+│  Final Output: ```json  │
+│  {                      │
+│    "confidence_score":  │
+│  0,                     │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "registry_found",      │
+│        "extracted":     │
+│  "N/A",                 │
+│        "registry":      │
+│  "False",               │
+│        "reason":        │
+│  "CRITICAL: Provider    │
+│  not found in the       │
+│  official registry.     │
+│  Confidence score set   │
+│  to 0."                 │
+│      }                  │
+│    ],                   │
+│    "summary":           │
+│  "CRITICAL: The         │
+│  provider was not       │
+│  found in the official  │
+│  registry data          │
+│  ('registry_found' is   │
+│  false). As per rules,  │
+│  the confidence score   │
+│  is set to 0, and the   │
+│  status is Flagged."    │
+│  }                      │
+│  ```                    │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[19:18:36] QA Agent: Validation complete for: John Doe
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:61550 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61534 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61549 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61549 - "GET /api/logs HTTP/1.1" 200 OK
+[19:18:43] CrewAI Orchestrator: Saved: John Doe -> Flagged (0%)
+INFO:     127.0.0.1:61549 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/logs HTTP/1.1" 200 OK
+[19:18:45] CrewAI Orchestrator: Workflow complete. Processed 1/1 providers.
+INFO:     127.0.0.1:61550 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61549 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61550 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61551 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61558 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61558 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61552 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61560 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61567 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61568 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61554 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61580 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61580 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61580 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61580 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61580 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61584 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61584 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61584 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61584 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61584 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61584 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61586 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61585 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61586 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61586 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61586 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61586 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61586 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61586 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61589 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61589 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61589 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61589 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61589 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61590 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61596 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61563 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61597 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61598 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61608 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61608 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61608 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61599 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61609 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61612 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61612 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61612 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61610 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61615 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61614 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61620 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61621 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61637 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61638 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61640 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61639 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61639 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61639 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61645 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61639 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61644 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61643 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61644 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61643 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61643 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61651 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61648 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61648 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61648 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61651 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61655 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61655 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61655 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61656 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61658 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61658 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61660 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61650 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61660 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61660 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61660 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61660 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61660 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61649 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61667 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61668 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61661 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61673 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61679 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61673 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61690 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61671 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61690 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61690 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61665 - "GET /api/validation/17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61690 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61695 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61700 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61700 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61700 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61696 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61699 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61713 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61713 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61713 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61715 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61702 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61738 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/validation/17/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/validation/17 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61714 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61740 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61739 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61739 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61739 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61739 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61739 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61739 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61739 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61742 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61743 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61744 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61748 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61737 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61747 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61746 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61756 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61755 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61754 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61763 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61765 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61765 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61765 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61765 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61765 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61765 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61764 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61773 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61773 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61773 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61774 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61782 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61782 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61780 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61790 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61790 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61790 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61792 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61792 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61792 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61787 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61795 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61795 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61795 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61778 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61799 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61804 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61805 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61805 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61805 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61809 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61809 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61800 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61809 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61835 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61837 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61840 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61840 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61840 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61842 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61842 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61819 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61851 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61836 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61854 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61853 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61852 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61853 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61852 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61853 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61852 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61852 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61852 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61856 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61853 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61853 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61857 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61859 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61858 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61869 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61869 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61863 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61865 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61876 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61883 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61883 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61883 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61879 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61894 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61894 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61885 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61894 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61894 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61894 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61894 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61897 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61897 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61897 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61900 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61895 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61900 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61900 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61900 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61900 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61900 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61908 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61905 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61890 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61914 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61914 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61902 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61916 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61916 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61932 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61913 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61930 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61936 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61936 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61952 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61936 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61955 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61955 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61955 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61958 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61964 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61970 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61971 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61971 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61971 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61970 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61970 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61971 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61970 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61960 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61990 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61990 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61992 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61992 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61992 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61992 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61992 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61992 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61993 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61978 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62011 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62014 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62013 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62021 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62023 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62026 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62025 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62024 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62034 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62034 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62034 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62038 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62029 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62038 - "GET /api/logs HTTP/1.1" 200 OK

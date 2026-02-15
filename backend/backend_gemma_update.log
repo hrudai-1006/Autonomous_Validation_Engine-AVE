@@ -1,0 +1,627 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18320] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [18373]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/agents.py'. Reloading...
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [18386]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61347 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61349 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61348 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61366 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61366 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61366 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61377 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61377 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61377 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "POST /api/validate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61377 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[19:14:11] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:61377 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+[19:14:13] System: Saved temp file: 39cfc4fa-e363-4f96-8a4a-e99338520274_Screenshot 2026-02-03 at 4.15.17 PM.png (95057 bytes)
+INFO:     127.0.0.1:61350 - "GET /api/providers HTTP/1.1" 200 OK
+[19:14:14] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  0b3899ed-45bf-4608-b2  │
+│  fc-326bcc4a7e5c        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/39cfc4fa-e363  │
+│  -4f96-8a4a-e993385202  │
+│  74_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/39cfc4fa-e363-  │
+│  4f96-8a4a-e9933852027  │
+│  4_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  ID:                    │
+│  5e68c3bf-5c51-4f10-ad  │
+│  f0-c70f38b19a26        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/39cfc4fa-e363  │
+│  -4f96-8a4a-e993385202  │
+│  74_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/39cfc4fa-e363-  │
+│  4f96-8a4a-e9933852027  │
+│  4_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "GET /api/jobs/active HTTP/1.1" 200 OK
+ERROR:root:Google Gemini API error: 400 - Developer instruction is not enabled for models/gemma-3-12b-it
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}[0m
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 400 -       │
+│  Developer instruction  │
+│  is not enabled for     │
+│  models/gemma-3-12b-it  │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/39cfc4fa-e363  │
+│  -4f96-8a4a-e993385202  │
+│  74_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/39cfc4fa-e363-  │
+│  4f96-8a4a-e9933852027  │
+│  4_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+ERROR:root:Google Gemini API error: 400 - Developer instruction is not enabled for models/gemma-3-12b-it
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}[0m
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 400 -       │
+│  Developer instruction  │
+│  is not enabled for     │
+│  models/gemma-3-12b-it  │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file at       │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/39cfc4fa-e363  │
+│  -4f96-8a4a-e993385202  │
+│  74_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/39cfc4fa-e363-  │
+│  4f96-8a4a-e9933852027  │
+│  4_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│                         │
+╰─────────────────────────╯
+
+ERROR:root:Google Gemini API error: 400 - Developer instruction is not enabled for models/gemma-3-12b-it
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}[0m
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'task_failed' closed 
+'agent_execution_started' 
+(expected 'task_started')
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 400 -       │
+│  Developer instruction  │
+│  is not enabled for     │
+│  models/gemma-3-12b-it  │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Failure ────╮
+│                         │
+│  Task Failed            │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file at                │
+│  '/var/folders/zt/jcty  │
+│  nbn117b85m7s36ckl3qh0  │
+│  000gn/T/39cfc4fa-e363  │
+│  -4f96-8a4a-e993385202  │
+│  74_Screenshot          │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  1. Use the 'Medical    │
+│  File Exaction Tool'    │
+│  to process the file    │
+│  at:                    │
+│  /var/folders/zt/jctyn  │
+│  bn117b85m7s36ckl3qh00  │
+│  00gn/T/39cfc4fa-e363-  │
+│  4f96-8a4a-e9933852027  │
+│  4_Screenshot           │
+│  2026-02-03 at 4.15.17  │
+│  PM.png                 │
+│  2. The tool will       │
+│  return the extracted   │
+│  JSON data.             │
+│  3. Review the data     │
+│  and ensure it matches  │
+│  the required format.   │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+│  IMPORTANT:             │
+│  - Extract ONLY what    │
+│  is explicitly visible  │
+│  in the document.       │
+│  - If NPI is missing    │
+│  or not clear, set it   │
+│  to null.               │
+│  - Do NOT guess or      │
+│  hallucinate values.    │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'crew_kickoff_failed' 
+closed 
+'agent_execution_started' 
+(expected 
+'crew_kickoff_started')
+╭───── Crew Failure ──────╮
+│                         │
+│  Crew Execution Failed  │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  0b3899ed-45bf-4608-b2  │
+│  fc-326bcc4a7e5c        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[19:14:17] Extraction Agent: Extraction failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:61350 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61379 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61364 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61390 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61390 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61390 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61390 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61390 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61390 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61390 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61392 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61392 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61392 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61392 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61392 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61395 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61395 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61395 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61396 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61395 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61396 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61396 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61396 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/tools/extraction.py'. Reloading...
+INFO:     Shutting down
+INFO:     127.0.0.1:61396 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61389 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18386]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [18471]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/crew/agents.py'. Reloading...

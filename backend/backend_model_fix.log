@@ -1,0 +1,1010 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [7144] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [7197]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/agents/enrichment.py'. Reloading...
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crew/agents.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [7205]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [7299]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57139 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57139 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57136 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57159 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57142 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57142 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57159 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57159 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57159 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57142 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57159 - "POST /api/validate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57142 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[14:39:43] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:57160 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57160 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57159 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/logs HTTP/1.1" 200 OK
+[14:39:46] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:57142 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/logs HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  9d086bbd-21ea-48e3-a6  │
+│  d2-e59645a11bad        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│  ID:                    │
+│  7678f953-b8b9-4848-91  │
+│  fc-d92a9ec9f361        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:57161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+ERROR:root:Google Gemini API error: 404 - models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}[0m
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 404 -       │
+│  models/gemini-1.5-fla  │
+│  sh is not found for    │
+│  API version v1beta,    │
+│  or is not supported    │
+│  for generateContent.   │
+│  Call ListModels to     │
+│  see the list of        │
+│  available models and   │
+│  their supported        │
+│  methods.               │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+╰─────────────────────────╯
+
+ERROR:root:Google Gemini API error: 404 - models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}[0m
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 404 -       │
+│  models/gemini-1.5-fla  │
+│  sh is not found for    │
+│  API version v1beta,    │
+│  or is not supported    │
+│  for generateContent.   │
+│  Call ListModels to     │
+│  see the list of        │
+│  available models and   │
+│  their supported        │
+│  methods.               │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+╰─────────────────────────╯
+
+ERROR:root:Google Gemini API error: 404 - models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}[0m
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'task_failed' closed 
+'agent_execution_started' 
+(expected 'task_started')
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 404 -       │
+│  models/gemini-1.5-fla  │
+│  sh is not found for    │
+│  API version v1beta,    │
+│  or is not supported    │
+│  for generateContent.   │
+│  Call ListModels to     │
+│  see the list of        │
+│  available models and   │
+│  their supported        │
+│  methods.               │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Failure ────╮
+│                         │
+│  Task Failed            │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file 'Screenshot       │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'crew_kickoff_failed' 
+closed 
+'agent_execution_started' 
+(expected 
+'crew_kickoff_started')
+╭───── Crew Failure ──────╮
+│                         │
+│  Crew Execution Failed  │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  9d086bbd-21ea-48e3-a6  │
+│  d2-e59645a11bad        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[14:39:48] Extraction Agent: Extraction failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:57161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57142 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57169 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57169 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57169 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57170 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57161 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57174 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57171 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57179 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57172 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57181 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57180 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57180 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57180 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57180 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57181 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57202 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57202 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57181 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57181 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57202 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57239 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57239 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57239 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57266 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57269 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57255 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57276 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57276 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57273 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57274 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57279 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57279 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57279 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57279 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57279 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57279 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57278 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57287 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57287 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57287 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57289 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57293 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57296 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57296 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57292 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57296 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57296 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57296 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57296 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57297 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57299 - "GET /api/logs HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'check_models.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:57299 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7299]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [7342]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'check_models.py'. Reloading...
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [7488]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57302 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57301 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57307 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57313 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57302 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57302 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57302 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57302 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57302 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57313 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57335 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57335 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57333 - "GET /api/logs HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/agents/extraction.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:57333 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7488]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [7501]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/agents/extraction.py'. Reloading...

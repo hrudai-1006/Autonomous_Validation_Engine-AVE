@@ -1,0 +1,955 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6612] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [6665]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57011 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57013 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57014 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57014 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57014 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57014 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57012 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57038 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57038 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57038 - "POST /api/validate HTTP/1.1" 200 OK
+[14:36:07] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:57036 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57019 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[14:36:09] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:57040 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57039 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/providers HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  73c9abca-1218-4f24-86  │
+│  14-670371926ba1        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│  ID:                    │
+│  e1009036-6488-41bf-be  │
+│  6d-c5ab7385b443        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:57040 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57039 - "GET /api/jobs/active HTTP/1.1" 200 OK
+ERROR:root:Google Gemini API error: 429 - You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 49.235286055s.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 49.235286055s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 49.235286055s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '49s'}]}}[0m
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 429 - You   │
+│  exceeded your current  │
+│  quota, please check    │
+│  your plan and billing  │
+│  details. For more      │
+│  information on this    │
+│  error, head to:        │
+│  https://ai.google.dev  │
+│  /gemini-api/docs/rate  │
+│  -limits. To monitor    │
+│  your current usage,    │
+│  head to:               │
+│  https://ai.dev/rate-l  │
+│  imit.                  │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_re  │
+│  quests, limit: 0,      │
+│  model:                 │
+│  gemini-2.0-flash       │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_re  │
+│  quests, limit: 0,      │
+│  model:                 │
+│  gemini-2.0-flash       │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_in  │
+│  put_token_count,       │
+│  limit: 0, model:       │
+│  gemini-2.0-flash       │
+│  Please retry in        │
+│  49.235286055s.         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+╰─────────────────────────╯
+
+ERROR:root:Google Gemini API error: 429 - You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 48.981989259s.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 48.981989259s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 48.981989259s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}[0m
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 429 - You   │
+│  exceeded your current  │
+│  quota, please check    │
+│  your plan and billing  │
+│  details. For more      │
+│  information on this    │
+│  error, head to:        │
+│  https://ai.google.dev  │
+│  /gemini-api/docs/rate  │
+│  -limits. To monitor    │
+│  your current usage,    │
+│  head to:               │
+│  https://ai.dev/rate-l  │
+│  imit.                  │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_re  │
+│  quests, limit: 0,      │
+│  model:                 │
+│  gemini-2.0-flash       │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_re  │
+│  quests, limit: 0,      │
+│  model:                 │
+│  gemini-2.0-flash       │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_in  │
+│  put_token_count,       │
+│  limit: 0, model:       │
+│  gemini-2.0-flash       │
+│  Please retry in        │
+│  48.981989259s.         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+╰─────────────────────────╯
+
+ERROR:root:Google Gemini API error: 429 - You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 48.621597917s.
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 48.621597917s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 48.621597917s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}[0m
+╭───── ❌ LLM Error ──────╮
+│                         │
+│  LLM Call Failed        │
+│  Error: Google Gemini   │
+│  API error: 429 - You   │
+│  exceeded your current  │
+│  quota, please check    │
+│  your plan and billing  │
+│  details. For more      │
+│  information on this    │
+│  error, head to:        │
+│  https://ai.google.dev  │
+│  /gemini-api/docs/rate  │
+│  -limits. To monitor    │
+│  your current usage,    │
+│  head to:               │
+│  https://ai.dev/rate-l  │
+│  imit.                  │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_re  │
+│  quests, limit: 0,      │
+│  model:                 │
+│  gemini-2.0-flash       │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_re  │
+│  quests, limit: 0,      │
+│  model:                 │
+│  gemini-2.0-flash       │
+│  * Quota exceeded for   │
+│  metric:                │
+│  generativelanguage.go  │
+│  ogleapis.com/generate  │
+│  _content_free_tier_in  │
+│  put_token_count,       │
+│  limit: 0, model:       │
+│  gemini-2.0-flash       │
+│  Please retry in        │
+│  48.621597917s.         │
+│                         │
+╰─────────────────────────╯
+
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'task_failed' closed 
+'agent_execution_started' 
+(expected 'task_started')
+╭──── 📋 Task Failure ────╮
+│                         │
+│  Task Failed            │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file 'Screenshot       │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[CrewAIEventsBus] Warning: 
+Event pairing mismatch. 
+'crew_kickoff_failed' 
+closed 
+'agent_execution_started' 
+(expected 
+'crew_kickoff_started')
+╭───── Crew Failure ──────╮
+│                         │
+│  Crew Execution Failed  │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  73c9abca-1218-4f24-86  │
+│  14-670371926ba1        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[14:36:11] Extraction Agent: Extraction failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 48.621597917s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+[14:36:11] System: 🚫 GEMINI API QUOTA EXCEEDED. Please try again later.
+INFO:     127.0.0.1:57039 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57040 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57039 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57040 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57048 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57054 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57059 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57059 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57056 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57055 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57066 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57066 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57066 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57066 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57066 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57066 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57060 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57074 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57074 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57074 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57074 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57076 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57076 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57074 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57076 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57077 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57077 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57076 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57076 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57078 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57078 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57078 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57076 - "GET /api/logs HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/agents/extraction.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:57076 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57078 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6665]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [6946]
+INFO:     Waiting for application startup.
+WARNING:  WatchFiles detected changes in 'app/agents/extraction.py'. Reloading...
+INFO:     Application startup complete.
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [6949]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/agents/enrichment.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:57082 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57083 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6949]
+WARNING:  WatchFiles detected changes in 'app/crew/agents.py'. Reloading...
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [6950]
+INFO:     Waiting for application startup.

@@ -1,0 +1,1315 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9383] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [9541]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57974 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58032 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58030 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58030 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58032 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58032 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58030 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "POST /api/validate HTTP/1.1" 200 OK
+[17:29:21] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-03 at 4.15.17 PM.png
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58218 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+[17:29:24] Extraction Agent: Processing file: Screenshot 2026-02-03 at 4.15.17 PM.png
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  d3c71c2e-c3ab-4be2-b8  │
+│  59-e4a1fd917fc3        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│  ID:                    │
+│  79b53023-b935-41a7-8c  │
+│  04-fff841d036ae        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Task: Analyze the      │
+│  uploaded file          │
+│  'Screenshot            │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Medical         │
+│  Document Extractor     │
+│                         │
+│  Final Answer:          │
+│  ```json                │
+│  [                      │
+│    {                    │
+│      "full_name":       │
+│  "David M. Newman",     │
+│      "npi": null,       │
+│      "specialty":       │
+│  "Internal Medicine",   │
+│      "address": "7622   │
+│  W. Main Street, Suite  │
+│  100, Frankfort, IL     │
+│  60423",                │
+│      "license":         │
+│  "036-122965"           │
+│    }                    │
+│  ]                      │
+│  ```                    │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Analyze the uploaded   │
+│  file 'Screenshot       │
+│  2026-02-03 at 4.15.17  │
+│  PM.png' and extract    │
+│  provider information.  │
+│                         │
+│  Extract ONLY the MAIN  │
+│  provider. Ignore       │
+│  others if multiple     │
+│  exist.                 │
+│                         │
+│  The file content is    │
+│  provided as base64     │
+│  encoded data.          │
+│  File content           │
+│  (truncated for         │
+│  preview):              │
+│  iVBORw0KGgoAAAANSUhEU  │
+│  gAABbAAAADYCAYAAAA6R8  │
+│  UrAAAMTGlDQ1BJQ0MgUHJ  │
+│  vZmlsZQAASImVVwdYU1cb  │
+│  PndkQggQiICMsJcgIiOAj  │
+│  BBW2BtBVEISIIwYE4KKGy  │
+│  mtYN0ighOtMhStVkCKC7U  │
+│  uiuLexYGKUou1uJX/hABa  │
+│  +o/n/57n3Pve93znPd/33  │
+│  XPHAYDexZdKc1FNAPIk+b  │
+│  LYYH/W5OQUFukZQIABoAN  │
+│  nQOcL5FJOdHQ4gDZ8/ru9  │
+│  vga9oV12UGr9s/+/mpZQJ  │
+│  BcAgERDnC6UC/Ig/gkAvF  │
+│  UgleUDQJRC3nxWvlSJ10K  │
+│  sI4MBQlyjxJkq3KrE6Sp8  │
+│  cdAnPpYL8SMAyOp8viwTA  │
+│  I0+yLMKBJlQhw6zBU4SoV  │
+│  gCsR/EPnl5M4QQL4LYBvr  │
+│  AOelKfXb6VzqZf9NMH9Hk  │
+│  8zNHsCqXQSMHiOXSXP6c/  │
+│  7Mc/9vychXDc1jDpp4lC4  │
+│  lV5gzr9ihnRpgSq0P8VpI  │
+│  eGQWxNgAoLhYO+isxM0sR  │
+│  kqDyR20Eci6sGWBCPEmeG  │
+│  8cb4mOF/IAwiA0hzpDkRo  │
+│  YP+RRliIOUPrB+aIU4nxc  │
+│  PsR7ENSJ5YNyQzzHZjNjh  │
+│  ea9lyLicIf4pXzYYg1L/s  │
+│  yIngaPSx7SzRLwhfcyxMC  │
+│  s+CWIqxAEF4sRIiDUgjpT  │
+│  nxIUN+aQWZnEjh31kilhl  │
+│  LhYQy0SSYH+VPlaeIQuKH  │
+│  fKvy5MP544dyxLzIofwpf  │
+│  ys+BBVrbBHAv5g/DAXrE8  │
+│  k4SQM64jkk8OHcxGKAgJV  │
+│  ueNkkSQhTsXjetJ8/1jVW  │
+│  NxOmhs95I/7i3KDlbwZxP  │
+│  HygrjhsQX5cHGq9PESaX5  │
+│  0vCpOvDKbHxqtigffB8IB  │
+│  FwQAFlDAlg5mgGwg7uht6  │
+│  oVXqp4gwAcykAlEwGGIGR  │
+│  6RNNgjgcc4UAh+h0gE5CP  │
+│  j/Ad7RaAA8p9GsUpOPMKp  │
+│  jg4gY6hPqZIDHkOcB8JAL  │
+│  rxWDCpJRiJIBI8gI/5HRH  │
+│  zYBDCHXNiU/f+eH2a/MBz  │
+│  IhA8xiuEZWfRh...       │
+│                         │
+│  Return a JSON array    │
+│  of provider objects    │
+│  with these fields:     │
+│  - full_name: The       │
+│  provider's full name   │
+│  - npi: NPI number      │
+│  (digits only, or null  │
+│  if not found)          │
+│  - specialty: Medical   │
+│  specialty              │
+│  - address: Full        │
+│  address                │
+│  - license: License     │
+│  number                 │
+│  Agent:                 │
+│  Medical Document       │
+│  Extractor              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  d3c71c2e-c3ab-4be2-b8  │
+│  59-e4a1fd917fc3        │
+│  Final Output: ```json  │
+│  [                      │
+│    {                    │
+│      "full_name":       │
+│  "David M. Newman",     │
+│      "npi": null,       │
+│      "specialty":       │
+│  "Internal Medicine",   │
+│      "address": "7622   │
+│  W. Main Street, Suite  │
+│  100, Frankfort, IL     │
+│  60423",                │
+│      "license":         │
+│  "036-122965"           │
+│    }                    │
+│  ]                      │
+│  ```                    │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[17:29:25] Extraction Agent: Extraction complete: ```json
+[
+  {
+    "full_name": "David M. Newman",
+    "npi": null,
+    "specialty": "Internal Medicine",
+    "address": "7622 W. Main Street, Suite 100, Frankfort, IL 60423",
+    "license": "036-12296...
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+[17:29:26] CrewAI Orchestrator: Found 1 providers to validate
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[17:29:27] CrewAI Orchestrator: [1/1] Processing: David M. Newman
+[17:29:28] Enrichment Agent: Looking up registry data for: David M. Newman
+INFO:     127.0.0.1:58031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58218 - "GET /api/logs HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  b8a1d932-fc2c-48da-95  │
+│  de-c2c6e289d250        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: David   │
+│  M. Newman              │
+│  NPI (claimed): None    │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  formatting the output  │
+│  as valid JSON.         │
+│  4.  If no NPI is       │
+│  provided or found,     │
+│  search by name (if     │
+│  possible) or return    │
+│  registry_found=false.  │
+│                         │
+│  Do not hallucinate     │
+│  data. Only return      │
+│  what the tool          │
+│  provides.              │
+│  ID:                    │
+│  e14f89de-67ae-47fa-8d  │
+│  f6-6585e32ef21d        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Task: Find the         │
+│  official NPI registry  │
+│  record for this        │
+│  provider:              │
+│                         │
+│  Provider Name: David   │
+│  M. Newman              │
+│  NPI (claimed): None    │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  formatting the output  │
+│  as valid JSON.         │
+│  4.  If no NPI is       │
+│  provided or found,     │
+│  search by name (if     │
+│  possible) or return    │
+│  registry_found=false.  │
+│                         │
+│  Do not hallucinate     │
+│  data. Only return      │
+│  what the tool          │
+│  provides.              │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:58218 - "GET /api/providers HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Registry Data   │
+│  Enricher               │
+│                         │
+│  Final Answer:          │
+│  I need an NPI number   │
+│  to search the          │
+│  registry. Please       │
+│  provide the 10-digit   │
+│  NPI for David M.       │
+│  Newman.                │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Find the official NPI  │
+│  registry record for    │
+│  this provider:         │
+│                         │
+│  Provider Name: David   │
+│  M. Newman              │
+│  NPI (claimed): None    │
+│                         │
+│  1.  Identify the NPI   │
+│  number from the        │
+│  input.                 │
+│  2.  Use the 'NPI       │
+│  Registry Search' tool  │
+│  to query the CMS       │
+│  database.              │
+│  3.  If the tool        │
+│  returns a match,       │
+│  formatting the output  │
+│  as valid JSON.         │
+│  4.  If no NPI is       │
+│  provided or found,     │
+│  search by name (if     │
+│  possible) or return    │
+│  registry_found=false.  │
+│                         │
+│  Do not hallucinate     │
+│  data. Only return      │
+│  what the tool          │
+│  provides.              │
+│  Agent:                 │
+│  Registry Data          │
+│  Enricher               │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  b8a1d932-fc2c-48da-95  │
+│  de-c2c6e289d250        │
+│  Final Output: I need   │
+│  an NPI number to       │
+│  search the registry.   │
+│  Please provide the     │
+│  10-digit NPI for       │
+│  David M. Newman.       │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[17:29:29] Enrichment Agent: Registry lookup complete
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+INFO:     127.0.0.1:58218 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[17:29:30] QA Agent: Validating: David M. Newman
+INFO:     127.0.0.1:58218 - "GET /api/logs HTTP/1.1" 200 OK
+╭─ 🚀 Crew Execution Star─╮
+│                         │
+│  Crew Execution         │
+│  Started                │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  7d482626-f314-47a5-a2  │
+│  f1-79cef7b68f53        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── 📋 Task Started ────╮
+│                         │
+│  Task Started           │
+│  Name: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'David   │
+│  M. Newman', 'npi':     │
+│  None, 'specialty':     │
+│  'Internal Medicine',   │
+│  'address': '7622 W.    │
+│  Main Street, Suite     │
+│  100, Frankfort, IL     │
+│  60423', 'license':     │
+│  '036-122965'}          │
+│                         │
+│  REGISTRY DATA:         │
+│  {'error': 'Could not   │
+│  parse registry         │
+│  response'}             │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - Start at 100%        │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  81%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  ID:                    │
+│  d6edb6d4-5c51-420d-ac  │
+│  c5-266fa1171401        │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭─── 🤖 Agent Started ────╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Task: Compare the      │
+│  extracted provider     │
+│  data with the          │
+│  official registry      │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'David   │
+│  M. Newman', 'npi':     │
+│  None, 'specialty':     │
+│  'Internal Medicine',   │
+│  'address': '7622 W.    │
+│  Main Street, Suite     │
+│  100, Frankfort, IL     │
+│  60423', 'license':     │
+│  '036-122965'}          │
+│                         │
+│  REGISTRY DATA:         │
+│  {'error': 'Could not   │
+│  parse registry         │
+│  response'}             │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - Start at 100%        │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  81%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│                         │
+╰─────────────────────────╯
+
+INFO:     127.0.0.1:58218 - "GET /api/jobs/active HTTP/1.1" 200 OK
+╭─ ✅ Agent Final Answer ─╮
+│                         │
+│  Agent: Quality         │
+│  Assurance Validator    │
+│                         │
+│  Final Answer:          │
+│  ```json                │
+│  {                      │
+│    "confidence_score":  │
+│  20,                    │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "name",                │
+│        "extracted":     │
+│  "David M. Newman",     │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 20    │
+│      },                 │
+│      {                  │
+│        "field": "npi",  │
+│        "extracted":     │
+│  "None",                │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 0     │
+│      },                 │
+│      {                  │
+│        "field":         │
+│  "specialty",           │
+│        "extracted":     │
+│  "Internal Medicine",   │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 10    │
+│      },                 │
+│      {                  │
+│        "field":         │
+│  "address",             │
+│        "extracted":     │
+│  "7622 W. Main Street,  │
+│  Suite 100, Frankfort,  │
+│  IL 60423",             │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 5     │
+│      },                 │
+│      {                  │
+│        "field":         │
+│  "license",             │
+│        "extracted":     │
+│  "036-122965",          │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 15    │
+│      }                  │
+│    ],                   │
+│    "summary":           │
+│  "Registry data could   │
+│  not be parsed,         │
+│  leading to a           │
+│  significant number of  │
+│  discrepancies and a    │
+│  low confidence score.  │
+│  Further investigation  │
+│  is required."          │
+│  }                      │
+│  ```                    │
+│                         │
+╰─────────────────────────╯
+
+╭── 📋 Task Completion ───╮
+│                         │
+│  Task Completed         │
+│  Name:                  │
+│  Compare the extracted  │
+│  provider data with     │
+│  the official registry  │
+│  data.                  │
+│                         │
+│  EXTRACTED DATA:        │
+│  {'full_name': 'David   │
+│  M. Newman', 'npi':     │
+│  None, 'specialty':     │
+│  'Internal Medicine',   │
+│  'address': '7622 W.    │
+│  Main Street, Suite     │
+│  100, Frankfort, IL     │
+│  60423', 'license':     │
+│  '036-122965'}          │
+│                         │
+│  REGISTRY DATA:         │
+│  {'error': 'Could not   │
+│  parse registry         │
+│  response'}             │
+│                         │
+│  Calculate a            │
+│  confidence score       │
+│  using these rules:     │
+│  - Start at 100%        │
+│  - Name mismatch: -20   │
+│  points                 │
+│  - License mismatch:    │
+│  -15 points             │
+│  - Specialty mismatch   │
+│  (total): -10 points    │
+│  - Specialty mismatch   │
+│  (minor): -5 points     │
+│  - Address format       │
+│  difference: -5 points  │
+│                         │
+│  Threshold for          │
+│  "Validated" status:    │
+│  81%                    │
+│  Below threshold =      │
+│  "Flagged" status       │
+│  Agent:                 │
+│  Quality Assurance      │
+│  Validator              │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+╭──── Crew Completion ────╮
+│                         │
+│  Crew Execution         │
+│  Completed              │
+│  Name:                  │
+│  crew                   │
+│  ID:                    │
+│  7d482626-f314-47a5-a2  │
+│  f1-79cef7b68f53        │
+│  Final Output: ```json  │
+│  {                      │
+│    "confidence_score":  │
+│  20,                    │
+│    "status":            │
+│  "Flagged",             │
+│    "discrepancies": [   │
+│      {                  │
+│        "field":         │
+│  "name",                │
+│        "extracted":     │
+│  "David M. Newman",     │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 20    │
+│      },                 │
+│      {                  │
+│        "field": "npi",  │
+│        "extracted":     │
+│  "None",                │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 0     │
+│      },                 │
+│      {                  │
+│        "field":         │
+│  "specialty",           │
+│        "extracted":     │
+│  "Internal Medicine",   │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 10    │
+│      },                 │
+│      {                  │
+│        "field":         │
+│  "address",             │
+│        "extracted":     │
+│  "7622 W. Main Street,  │
+│  Suite 100, Frankfort,  │
+│  IL 60423",             │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 5     │
+│      },                 │
+│      {                  │
+│        "field":         │
+│  "license",             │
+│        "extracted":     │
+│  "036-122965",          │
+│        "registry":      │
+│  "Registry data         │
+│  unavailable",          │
+│        "penalty": 15    │
+│      }                  │
+│    ],                   │
+│    "summary":           │
+│  "Registry data could   │
+│  not be parsed,         │
+│  leading to a           │
+│  significant number of  │
+│  discrepancies and a    │
+│  low confidence score.  │
+│  Further investigation  │
+│  is required."          │
+│  }                      │
+│  ```                    │
+│                         │
+│                         │
+╰─────────────────────────╯
+
+[17:29:32] QA Agent: Validation complete for: David M. Newman
+╭──── Tracing Status ─────╮
+│                         │
+│  Info: Tracing is       │
+│  disabled.              │
+│                         │
+│  To enable tracing, do  │
+│  any one of these:      │
+│  • Set tracing=True in  │
+│  your Crew/Flow code    │
+│  • Set                  │
+│  CREWAI_TRACING_ENABLE  │
+│  D=true in your         │
+│  project's .env file    │
+│  • Run: crewai traces   │
+│  enable                 │
+│                         │
+╰─────────────────────────╯
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/fastapi/routing.py", line 107, in app
+    await response(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/responses.py", line 168, in __call__
+    await self.background()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/background.py", line 42, in __call__
+    await task()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/background.py", line 29, in __call__
+    await run_in_threadpool(self.func, *self.args, **self.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/starlette/concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 2476, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/anyio/_backends/_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/api.py", line 16, in run_crew_task
+    run_validation_crew(file_content, filename, new_db, job_id)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/crew/crew.py", line 197, in run_validation_crew
+    provider = Provider(
+        full_name=provider_data.get('full_name'),
+    ...<5 lines>...
+        confidence_score=validation_data.get('confidence_score', 50)
+    )
+  File "<string>", line 4, in __init__
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/state.py", line 596, in _initialize_instance
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/state.py", line 594, in _initialize_instance
+    manager.original_init(*mixed[1:], **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sqlalchemy/orm/decl_base.py", line 2179, in _declarative_constructor
+    raise TypeError(
+        "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+    )
+TypeError: 'license_number' is an invalid keyword argument for Provider
+INFO:     127.0.0.1:58218 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58218 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58218 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58282 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58283 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58290 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58284 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58290 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58289 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58031 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58333 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58333 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58333 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58333 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58333 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58335 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58335 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58335 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58335 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58335 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58335 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58335 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58338 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58338 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58336 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58329 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58350 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58350 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58349 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58354 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58354 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58352 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58343 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58371 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58371 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58371 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58371 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58371 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58372 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58371 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58372 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58371 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58372 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58373 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58373 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58361 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58425 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58423 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58422 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/crew/crew.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     127.0.0.1:58422 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58423 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9541]
+/Users/hrudai/Desktop/CODE GROUND/AVE/backend/app/routers/system.py:7: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10130]
+INFO:     Waiting for application startup.
