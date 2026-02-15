@@ -1,0 +1,1601 @@
+INFO:     Will watch for changes in these directories: ['/Users/hrudai/Desktop/CODE GROUND/AVE FINAL/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [46312] using WatchFiles
+/Users/hrudai/Desktop/CODE GROUND/AVE FINAL/backend/app/tools/extraction.py:6: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [46371]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61962 - "HEAD /api/dashboard/stats HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:61953 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61955 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61956 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61965 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "OPTIONS /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "DELETE /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61954 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "POST /api/validate HTTP/1.1" 200 OK
+[19:55:02] System: Received file: Screenshot 2026-02-11 at 7.49.22 PM.png. Initializing agents...
+INFO:     127.0.0.1:61986 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:02] CrewAI Orchestrator: Starting validation workflow for: Screenshot 2026-02-11 at 7.49.22 PM.png
+INFO:     127.0.0.1:61954 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/jobs/active HTTP/1.1" 200 OK
+[19:55:04] System: Saved temp file: 40bab48b-3628-4939-a6f1-e9a6b49a2509_Screenshot_2026-02-11_at_7.49.22_PM.png (100606 bytes)
+INFO:     127.0.0.1:61988 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61982 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:05] Extraction Agent: Processing file: Screenshot 2026-02-11 at 7.49.22 PM.png
+╭─ 🚀 Crew Execution Started─╮
+│                            │
+│  Crew Execution Started    │
+│  Name:                     │
+│  crew                      │
+│  ID:                       │
+│  2d835b23-af05-48cb-986b-  │
+│  0704af46580d              │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── 📋 Task Started ──────╮
+│                            │
+│  Task Started              │
+│  Name: Analyze the         │
+│  uploaded file at          │
+│  '/var/folders/zt/jctynbn  │
+│  117b85m7s36ckl3qh0000gn/  │
+│  T/40bab48b-3628-4939-a6f  │
+│  1-e9a6b49a2509_Screensho  │
+│  t_2026-02-11_at_7.49.22_  │
+│  PM.png' and extract       │
+│  provider information.     │
+│                            │
+│  Extract ALL providers     │
+│  found in the document.    │
+│                            │
+│  1. Use the 'Medical File  │
+│  Exaction Tool' to         │
+│  process the file at:      │
+│  /var/folders/zt/jctynbn1  │
+│  17b85m7s36ckl3qh0000gn/T  │
+│  /40bab48b-3628-4939-a6f1  │
+│  -e9a6b49a2509_Screenshot  │
+│  _2026-02-11_at_7.49.22_P  │
+│  M.png                     │
+│  2. The tool will return   │
+│  the extracted JSON data.  │
+│  3. Review the data and    │
+│  ensure it matches the     │
+│  required format.          │
+│                            │
+│  Return a JSON array of    │
+│  provider objects with     │
+│  these fields:             │
+│  - full_name: The          │
+│  provider's full name      │
+│  - npi: NPI number         │
+│  (digits only, or null if  │
+│  not found)                │
+│  - specialty: Medical      │
+│  specialty                 │
+│  - address: Full address   │
+│  - license: License        │
+│  number                    │
+│                            │
+│  IMPORTANT:                │
+│  - Extract ONLY what is    │
+│  explicitly visible in     │
+│  the document.             │
+│  - If NPI is missing or    │
+│  not clear, set it to      │
+│  null.                     │
+│  - Do NOT guess or         │
+│  hallucinate values.       │
+│  ID:                       │
+│  f22a45c8-6469-4599-9640-  │
+│  b22c4e828426              │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── 🤖 Agent Started ─────╮
+│                            │
+│  Agent: Medical Document   │
+│  Extractor                 │
+│                            │
+│  Task: Analyze the         │
+│  uploaded file at          │
+│  '/var/folders/zt/jctynbn  │
+│  117b85m7s36ckl3qh0000gn/  │
+│  T/40bab48b-3628-4939-a6f  │
+│  1-e9a6b49a2509_Screensho  │
+│  t_2026-02-11_at_7.49.22_  │
+│  PM.png' and extract       │
+│  provider information.     │
+│                            │
+│  Extract ALL providers     │
+│  found in the document.    │
+│                            │
+│  1. Use the 'Medical File  │
+│  Exaction Tool' to         │
+│  process the file at:      │
+│  /var/folders/zt/jctynbn1  │
+│  17b85m7s36ckl3qh0000gn/T  │
+│  /40bab48b-3628-4939-a6f1  │
+│  -e9a6b49a2509_Screenshot  │
+│  _2026-02-11_at_7.49.22_P  │
+│  M.png                     │
+│  2. The tool will return   │
+│  the extracted JSON data.  │
+│  3. Review the data and    │
+│  ensure it matches the     │
+│  required format.          │
+│                            │
+│  Return a JSON array of    │
+│  provider objects with     │
+│  these fields:             │
+│  - full_name: The          │
+│  provider's full name      │
+│  - npi: NPI number         │
+│  (digits only, or null if  │
+│  not found)                │
+│  - specialty: Medical      │
+│  specialty                 │
+│  - address: Full address   │
+│  - license: License        │
+│  number                    │
+│                            │
+│  IMPORTANT:                │
+│  - Extract ONLY what is    │
+│  explicitly visible in     │
+│  the document.             │
+│  - If NPI is missing or    │
+│  not clear, set it to      │
+│  null.                     │
+│  - Do NOT guess or         │
+│  hallucinate values.       │
+│                            │
+╰────────────────────────────╯
+
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/logs HTTP/1.1" 200 OK
+╭─ 🔧 Tool Execution Started─╮
+│                            │
+│  Tool:                     │
+│  medical_file_exaction_to  │
+│  ol                        │
+│  Args: {'file_path':       │
+│  '/var/folders/zt/jctynbn  │
+│  117b85m7s36ckl3qh0000gn/  │
+│  T/40bab48b-3628-4939-a6f  │
+│  1-e9a6b49a2509_Screensho  │
+│  t_2026-02-11_at_7.49.22_  │
+│  PM.png'}                  │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+INFO:     127.0.0.1:61982 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/validation/29 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/validation/29/discrepancies HTTP/1.1" 200 OK
+[32mTool medical_file_exaction_tool executed with result: [
+  {
+    "full_name": "JEROME AYA-AY M.D.",
+    "npi": "1467560003",
+    "specialty": "Family Medicine",
+    "address": "8311 WARREN H ABERNATHY HWY, SPARTANBURG, SC, 293011249",
+    "license": null
+...[0m
+╭─ ✅ Tool Execution Complet─╮
+│                            │
+│  Tool Completed            │
+│  Tool:                     │
+│  medical_file_exaction_to  │
+│  ol                        │
+│  Output: [                 │
+│    {                       │
+│      "full_name": "JEROME  │
+│  AYA-AY M.D.",             │
+│      "npi": "1467560003",  │
+│      "specialty": "Family  │
+│  Medicine",                │
+│      "address": "8311      │
+│  WARREN H ABERNATHY HWY,   │
+│  SPARTANBURG, SC,          │
+│  293011249",               │
+│      "license": null       │
+│    },                      │
+│    {                       │
+│      "full_name": null,    │
+│      "npi": "1316196298",  │
+│      "specialty": null,    │
+│      "address": null,      │
+│      "license": null       │
+│    }                       │
+│  ]                         │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+INFO:     127.0.0.1:61988 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+╭── ✅ Agent Final Answer ───╮
+│                            │
+│  Agent: Medical Document   │
+│  Extractor                 │
+│                            │
+│  Final Answer:             │
+│  ```json                   │
+│  [                         │
+│    {                       │
+│      "full_name": "JEROME  │
+│  AYA-AY M.D.",             │
+│      "npi": "1467560003",  │
+│      "specialty": "Family  │
+│  Medicine",                │
+│      "address": "8311      │
+│  WARREN H ABERNATHY HWY,   │
+│  SPARTANBURG, SC,          │
+│  293011249",               │
+│      "license": null       │
+│    },                      │
+│    {                       │
+│      "full_name": null,    │
+│      "npi": "1316196298",  │
+│      "specialty": null,    │
+│      "address": null,      │
+│      "license": null       │
+│    }                       │
+│  ]                         │
+│  ```                       │
+│                            │
+╰────────────────────────────╯
+
+╭──── 📋 Task Completion ────╮
+│                            │
+│  Task Completed            │
+│  Name:                     │
+│  Analyze the uploaded      │
+│  file at                   │
+│  '/var/folders/zt/jctynbn  │
+│  117b85m7s36ckl3qh0000gn/  │
+│  T/40bab48b-3628-4939-a6f  │
+│  1-e9a6b49a2509_Screensho  │
+│  t_2026-02-11_at_7.49.22_  │
+│  PM.png' and extract       │
+│  provider information.     │
+│                            │
+│  Extract ALL providers     │
+│  found in the document.    │
+│                            │
+│  1. Use the 'Medical File  │
+│  Exaction Tool' to         │
+│  process the file at:      │
+│  /var/folders/zt/jctynbn1  │
+│  17b85m7s36ckl3qh0000gn/T  │
+│  /40bab48b-3628-4939-a6f1  │
+│  -e9a6b49a2509_Screenshot  │
+│  _2026-02-11_at_7.49.22_P  │
+│  M.png                     │
+│  2. The tool will return   │
+│  the extracted JSON data.  │
+│  3. Review the data and    │
+│  ensure it matches the     │
+│  required format.          │
+│                            │
+│  Return a JSON array of    │
+│  provider objects with     │
+│  these fields:             │
+│  - full_name: The          │
+│  provider's full name      │
+│  - npi: NPI number         │
+│  (digits only, or null if  │
+│  not found)                │
+│  - specialty: Medical      │
+│  specialty                 │
+│  - address: Full address   │
+│  - license: License        │
+│  number                    │
+│                            │
+│  IMPORTANT:                │
+│  - Extract ONLY what is    │
+│  explicitly visible in     │
+│  the document.             │
+│  - If NPI is missing or    │
+│  not clear, set it to      │
+│  null.                     │
+│  - Do NOT guess or         │
+│  hallucinate values.       │
+│  Agent:                    │
+│  Medical Document          │
+│  Extractor                 │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── Crew Completion ──────╮
+│                            │
+│  Crew Execution Completed  │
+│  Name:                     │
+│  crew                      │
+│  ID:                       │
+│  2d835b23-af05-48cb-986b-  │
+│  0704af46580d              │
+│  Final Output: ```json     │
+│  [                         │
+│    {                       │
+│      "full_name": "JEROME  │
+│  AYA-AY M.D.",             │
+│      "npi": "1467560003",  │
+│      "specialty": "Family  │
+│  Medicine",                │
+│      "address": "8311      │
+│  WARREN H ABERNATHY HWY,   │
+│  SPARTANBURG, SC,          │
+│  293011249",               │
+│      "license": null       │
+│    },                      │
+│    {                       │
+│      "full_name": null,    │
+│      "npi": "1316196298",  │
+│      "specialty": null,    │
+│      "address": null,      │
+│      "license": null       │
+│    }                       │
+│  ]                         │
+│  ```                       │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+[19:55:17] Extraction Agent: Extraction complete: ```json
+[
+  {
+    "full_name": "JEROME AYA-AY M.D.",
+    "npi": "1467560003",
+    "specialty": "Family Medicine",
+    "address": "8311 WARREN H ABERNATHY HWY, SPARTANBURG, SC, 293011249",
+    "license...
+╭────── Tracing Status ──────╮
+│                            │
+│  Info: Tracing is          │
+│  disabled.                 │
+│                            │
+│  To enable tracing, do     │
+│  any one of these:         │
+│  • Set tracing=True in     │
+│  your Crew/Flow code       │
+│  • Set                     │
+│  CREWAI_TRACING_ENABLED=t  │
+│  rue in your project's     │
+│  .env file                 │
+│  • Run: crewai traces      │
+│  enable                    │
+│                            │
+╰────────────────────────────╯
+[19:55:17] CrewAI Orchestrator: Found 2 providers to validate
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:19] CrewAI Orchestrator: [1/2] Processing: JEROME AYA-AY M.D.
+[19:55:20] System: Looking up registry data for: JEROME AYA-AY M.D. (NPI: 1467560003)
+INFO:     127.0.0.1:61986 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[19:55:22] System: Registry lookup complete: A
+INFO:     127.0.0.1:61988 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:24] QA Agent: Validating: JEROME AYA-AY M.D.
+╭─ 🚀 Crew Execution Started─╮
+│                            │
+│  Crew Execution Started    │
+│  Name:                     │
+│  crew                      │
+│  ID:                       │
+│  28b6c4db-3b8b-482e-8f4d-  │
+│  8663d3e72bd9              │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── 📋 Task Started ──────╮
+│                            │
+│  Task Started              │
+│  Name: Compare the         │
+│  extracted provider data   │
+│  with the official         │
+│  registry data.            │
+│                            │
+│  EXTRACTED DATA:           │
+│  {'full_name': 'JEROME     │
+│  AYA-AY M.D.', 'npi':      │
+│  '1467560003',             │
+│  'specialty': 'Family      │
+│  Medicine', 'address':     │
+│  '8311 WARREN H ABERNATHY  │
+│  HWY, SPARTANBURG, SC,     │
+│  293011249', 'license':    │
+│  None}                     │
+│                            │
+│  REGISTRY DATA:            │
+│  {'npi_number':            │
+│  '1467560003',             │
+│  'provider_name': 'JEROME  │
+│  AYA-AY M.D.',             │
+│  'enumeration_type':       │
+│  'NPI-1',                  │
+│  'primary_specialty':      │
+│  'Family Medicine',        │
+│  'organization_name': '',  │
+│  'address': '8311 WARREN   │
+│  H ABERNATHY HWY,          │
+│  SPARTANBURG, SC,          │
+│  293011249', 'status':     │
+│  'A', 'registry_found':    │
+│  True}                     │
+│                            │
+│  Calculate a confidence    │
+│  score using these rules:  │
+│  - CRITICAL: If            │
+│  'registry_found' is       │
+│  false or REGISTRY DATA    │
+│  is empty/error -> Score   │
+│  = 0. Stop there.          │
+│  - Otherwise, start at     │
+│  100% and apply            │
+│  penalties:                │
+│  - Name mismatch: -20      │
+│  points                    │
+│  - License mismatch: -15   │
+│  points                    │
+│  - Specialty mismatch      │
+│  (total): -10 points       │
+│  - Specialty mismatch      │
+│  (minor): -5 points        │
+│  - Address format          │
+│  difference: -5 points     │
+│                            │
+│  Threshold for             │
+│  "Validated" status: 77%   │
+│  Below threshold =         │
+│  "Flagged" status          │
+│                            │
+│  IMPORTANT OUTPUT RULES:   │
+│  - Return ONLY the raw     │
+│  JSON object.              │
+│  - Do NOT use markdown     │
+│  formatting (no ```json    │
+│  ... ```).                 │
+│  - Do NOT include any      │
+│  introductory text.        │
+│  ID:                       │
+│  5276e177-dc86-4a54-a192-  │
+│  e0f6cb7fa6dc              │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── 🤖 Agent Started ─────╮
+│                            │
+│  Agent: Quality Assurance  │
+│  Validator                 │
+│                            │
+│  Task: Compare the         │
+│  extracted provider data   │
+│  with the official         │
+│  registry data.            │
+│                            │
+│  EXTRACTED DATA:           │
+│  {'full_name': 'JEROME     │
+│  AYA-AY M.D.', 'npi':      │
+│  '1467560003',             │
+│  'specialty': 'Family      │
+│  Medicine', 'address':     │
+│  '8311 WARREN H ABERNATHY  │
+│  HWY, SPARTANBURG, SC,     │
+│  293011249', 'license':    │
+│  None}                     │
+│                            │
+│  REGISTRY DATA:            │
+│  {'npi_number':            │
+│  '1467560003',             │
+│  'provider_name': 'JEROME  │
+│  AYA-AY M.D.',             │
+│  'enumeration_type':       │
+│  'NPI-1',                  │
+│  'primary_specialty':      │
+│  'Family Medicine',        │
+│  'organization_name': '',  │
+│  'address': '8311 WARREN   │
+│  H ABERNATHY HWY,          │
+│  SPARTANBURG, SC,          │
+│  293011249', 'status':     │
+│  'A', 'registry_found':    │
+│  True}                     │
+│                            │
+│  Calculate a confidence    │
+│  score using these rules:  │
+│  - CRITICAL: If            │
+│  'registry_found' is       │
+│  false or REGISTRY DATA    │
+│  is empty/error -> Score   │
+│  = 0. Stop there.          │
+│  - Otherwise, start at     │
+│  100% and apply            │
+│  penalties:                │
+│  - Name mismatch: -20      │
+│  points                    │
+│  - License mismatch: -15   │
+│  points                    │
+│  - Specialty mismatch      │
+│  (total): -10 points       │
+│  - Specialty mismatch      │
+│  (minor): -5 points        │
+│  - Address format          │
+│  difference: -5 points     │
+│                            │
+│  Threshold for             │
+│  "Validated" status: 77%   │
+│  Below threshold =         │
+│  "Flagged" status          │
+│                            │
+│  IMPORTANT OUTPUT RULES:   │
+│  - Return ONLY the raw     │
+│  JSON object.              │
+│  - Do NOT use markdown     │
+│  formatting (no ```json    │
+│  ... ```).                 │
+│  - Do NOT include any      │
+│  introductory text.        │
+│                            │
+╰────────────────────────────╯
+
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62006 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+╭── ✅ Agent Final Answer ───╮
+│                            │
+│  Agent: Quality Assurance  │
+│  Validator                 │
+│                            │
+│  Final Answer:             │
+│  {"confidence_score":      │
+│  100, "status":            │
+│  "Validated",              │
+│  "discrepancies": [],      │
+│  "summary": "Matched       │
+│  perfectly."}              │
+│                            │
+╰────────────────────────────╯
+
+╭──── 📋 Task Completion ────╮
+│                            │
+│  Task Completed            │
+│  Name:                     │
+│  Compare the extracted     │
+│  provider data with the    │
+│  official registry data.   │
+│                            │
+│  EXTRACTED DATA:           │
+│  {'full_name': 'JEROME     │
+│  AYA-AY M.D.', 'npi':      │
+│  '1467560003',             │
+│  'specialty': 'Family      │
+│  Medicine', 'address':     │
+│  '8311 WARREN H ABERNATHY  │
+│  HWY, SPARTANBURG, SC,     │
+│  293011249', 'license':    │
+│  None}                     │
+│                            │
+│  REGISTRY DATA:            │
+│  {'npi_number':            │
+│  '1467560003',             │
+│  'provider_name': 'JEROME  │
+│  AYA-AY M.D.',             │
+│  'enumeration_type':       │
+│  'NPI-1',                  │
+│  'primary_specialty':      │
+│  'Family Medicine',        │
+│  'organization_name': '',  │
+│  'address': '8311 WARREN   │
+│  H ABERNATHY HWY,          │
+│  SPARTANBURG, SC,          │
+│  293011249', 'status':     │
+│  'A', 'registry_found':    │
+│  True}                     │
+│                            │
+│  Calculate a confidence    │
+│  score using these rules:  │
+│  - CRITICAL: If            │
+│  'registry_found' is       │
+│  false or REGISTRY DATA    │
+│  is empty/error -> Score   │
+│  = 0. Stop there.          │
+│  - Otherwise, start at     │
+│  100% and apply            │
+│  penalties:                │
+│  - Name mismatch: -20      │
+│  points                    │
+│  - License mismatch: -15   │
+│  points                    │
+│  - Specialty mismatch      │
+│  (total): -10 points       │
+│  - Specialty mismatch      │
+│  (minor): -5 points        │
+│  - Address format          │
+│  difference: -5 points     │
+│                            │
+│  Threshold for             │
+│  "Validated" status: 77%   │
+│  Below threshold =         │
+│  "Flagged" status          │
+│                            │
+│  IMPORTANT OUTPUT RULES:   │
+│  - Return ONLY the raw     │
+│  JSON object.              │
+│  - Do NOT use markdown     │
+│  formatting (no ```json    │
+│  ... ```).                 │
+│  - Do NOT include any      │
+│  introductory text.        │
+│  Agent:                    │
+│  Quality Assurance         │
+│  Validator                 │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── Crew Completion ──────╮
+│                            │
+│  Crew Execution Completed  │
+│  Name:                     │
+│  crew                      │
+│  ID:                       │
+│  28b6c4db-3b8b-482e-8f4d-  │
+│  8663d3e72bd9              │
+│  Final Output:             │
+│  {"confidence_score":      │
+│  100, "status":            │
+│  "Validated",              │
+│  "discrepancies": [],      │
+│  "summary": "Matched       │
+│  perfectly."}              │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭────── Tracing Status ──────╮
+│                            │
+│  Info: Tracing is          │
+│  disabled.                 │
+│                            │
+│  To enable tracing, do     │
+│  any one of these:         │
+│  • Set tracing=True in     │
+│  your Crew/Flow code       │
+│  • Set                     │
+│  CREWAI_TRACING_ENABLED=t  │
+│  rue in your project's     │
+│  .env file                 │
+│  • Run: crewai traces      │
+│  enable                    │
+│                            │
+╰────────────────────────────╯
+[19:55:29] QA Agent: Validation complete for: JEROME AYA-AY M.D.
+INFO:     127.0.0.1:61988 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62006 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:31] CrewAI Orchestrator: Updating existing provider: JEROME AYA-AY M.D. (NPI: 1467560003)
+INFO:     127.0.0.1:62006 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:33] CrewAI Orchestrator: Saved: JEROME AYA-AY M.D. -> Validated (100%)
+INFO:     127.0.0.1:61998 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+[19:55:34] CrewAI Orchestrator: [2/2] Processing: Unknown Provider (NPI: 1316196298)
+[19:55:35] System: Looking up registry data for: Unknown Provider (NPI: 1316196298) (NPI: 1316196298)
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:36] System: Registry lookup complete: A
+INFO:     127.0.0.1:61988 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:38] QA Agent: Validating: Unknown Provider (NPI: 1316196298)
+╭─ 🚀 Crew Execution Started─╮
+│                            │
+│  Crew Execution Started    │
+│  Name:                     │
+│  crew                      │
+│  ID:                       │
+│  e27799eb-5cb9-4303-9d9e-  │
+│  659e71178974              │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── 📋 Task Started ──────╮
+│                            │
+│  Task Started              │
+│  Name: Compare the         │
+│  extracted provider data   │
+│  with the official         │
+│  registry data.            │
+│                            │
+│  EXTRACTED DATA:           │
+│  {'full_name': 'Unknown    │
+│  Provider (NPI:            │
+│  1316196298)', 'npi':      │
+│  '1316196298',             │
+│  'specialty': None,        │
+│  'address': None,          │
+│  'license': None}          │
+│                            │
+│  REGISTRY DATA:            │
+│  {'npi_number':            │
+│  '1316196298',             │
+│  'provider_name':          │
+│  'KIRSTEN GOOLSBY PAC',    │
+│  'enumeration_type':       │
+│  'NPI-1',                  │
+│  'primary_specialty':      │
+│  'Physician Assistant',    │
+│  'organization_name': '',  │
+│  'address': '4515 PREMIER  │
+│  DR, SUITE 203, HIGH       │
+│  POINT, NC, 272658357',    │
+│  'status': 'A',            │
+│  'registry_found': True}   │
+│                            │
+│  Calculate a confidence    │
+│  score using these rules:  │
+│  - CRITICAL: If            │
+│  'registry_found' is       │
+│  false or REGISTRY DATA    │
+│  is empty/error -> Score   │
+│  = 0. Stop there.          │
+│  - Otherwise, start at     │
+│  100% and apply            │
+│  penalties:                │
+│  - Name mismatch: -20      │
+│  points                    │
+│  - License mismatch: -15   │
+│  points                    │
+│  - Specialty mismatch      │
+│  (total): -10 points       │
+│  - Specialty mismatch      │
+│  (minor): -5 points        │
+│  - Address format          │
+│  difference: -5 points     │
+│                            │
+│  Threshold for             │
+│  "Validated" status: 77%   │
+│  Below threshold =         │
+│  "Flagged" status          │
+│                            │
+│  IMPORTANT OUTPUT RULES:   │
+│  - Return ONLY the raw     │
+│  JSON object.              │
+│  - Do NOT use markdown     │
+│  formatting (no ```json    │
+│  ... ```).                 │
+│  - Do NOT include any      │
+│  introductory text.        │
+│  ID:                       │
+│  930f316e-1eb7-4d2f-b286-  │
+│  960b2a05b753              │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+[93mMaximum iterations reached. Requesting final answer.[0m
+╭───── 🤖 Agent Started ─────╮
+│                            │
+│  Agent: Quality Assurance  │
+│  Validator                 │
+│                            │
+│  Task: Compare the         │
+│  extracted provider data   │
+│  with the official         │
+│  registry data.            │
+│                            │
+│  EXTRACTED DATA:           │
+│  {'full_name': 'Unknown    │
+│  Provider (NPI:            │
+│  1316196298)', 'npi':      │
+│  '1316196298',             │
+│  'specialty': None,        │
+│  'address': None,          │
+│  'license': None}          │
+│                            │
+│  REGISTRY DATA:            │
+│  {'npi_number':            │
+│  '1316196298',             │
+│  'provider_name':          │
+│  'KIRSTEN GOOLSBY PAC',    │
+│  'enumeration_type':       │
+│  'NPI-1',                  │
+│  'primary_specialty':      │
+│  'Physician Assistant',    │
+│  'organization_name': '',  │
+│  'address': '4515 PREMIER  │
+│  DR, SUITE 203, HIGH       │
+│  POINT, NC, 272658357',    │
+│  'status': 'A',            │
+│  'registry_found': True}   │
+│                            │
+│  Calculate a confidence    │
+│  score using these rules:  │
+│  - CRITICAL: If            │
+│  'registry_found' is       │
+│  false or REGISTRY DATA    │
+│  is empty/error -> Score   │
+│  = 0. Stop there.          │
+│  - Otherwise, start at     │
+│  100% and apply            │
+│  penalties:                │
+│  - Name mismatch: -20      │
+│  points                    │
+│  - License mismatch: -15   │
+│  points                    │
+│  - Specialty mismatch      │
+│  (total): -10 points       │
+│  - Specialty mismatch      │
+│  (minor): -5 points        │
+│  - Address format          │
+│  difference: -5 points     │
+│                            │
+│  Threshold for             │
+│  "Validated" status: 77%   │
+│  Below threshold =         │
+│  "Flagged" status          │
+│                            │
+│  IMPORTANT OUTPUT RULES:   │
+│  - Return ONLY the raw     │
+│  JSON object.              │
+│  - Do NOT use markdown     │
+│  formatting (no ```json    │
+│  ... ```).                 │
+│  - Do NOT include any      │
+│  introductory text.        │
+│                            │
+╰────────────────────────────╯
+
+INFO:     127.0.0.1:61988 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+╭── ✅ Agent Final Answer ───╮
+│                            │
+│  Agent: Quality Assurance  │
+│  Validator                 │
+│                            │
+│  Final Answer:             │
+│                            │
+│  {"confidence_score": 65,  │
+│  "status": "Flagged",      │
+│  "discrepancies": ["Name   │
+│  mismatch: Extracted       │
+│  'Unknown Provider (NPI:   │
+│  1316196298)' vs.          │
+│  Registry 'KIRSTEN         │
+│  GOOLSBY PAC'",            │
+│  "Specialty mismatch:      │
+│  Extracted 'None' vs.      │
+│  Registry 'Physician       │
+│  Assistant'", "Address     │
+│  mismatch: Extracted       │
+│  'None' vs. Registry       │
+│  '4515 PREMIER DR, SUITE   │
+│  203, HIGH POINT, NC,      │
+│  272658357'"], "summary":  │
+│  "Discrepancies found in   │
+│  name, specialty, and      │
+│  address."}                │
+│                            │
+╰────────────────────────────╯
+
+╭──── 📋 Task Completion ────╮
+│                            │
+│  Task Completed            │
+│  Name:                     │
+│  Compare the extracted     │
+│  provider data with the    │
+│  official registry data.   │
+│                            │
+│  EXTRACTED DATA:           │
+│  {'full_name': 'Unknown    │
+│  Provider (NPI:            │
+│  1316196298)', 'npi':      │
+│  '1316196298',             │
+│  'specialty': None,        │
+│  'address': None,          │
+│  'license': None}          │
+│                            │
+│  REGISTRY DATA:            │
+│  {'npi_number':            │
+│  '1316196298',             │
+│  'provider_name':          │
+│  'KIRSTEN GOOLSBY PAC',    │
+│  'enumeration_type':       │
+│  'NPI-1',                  │
+│  'primary_specialty':      │
+│  'Physician Assistant',    │
+│  'organization_name': '',  │
+│  'address': '4515 PREMIER  │
+│  DR, SUITE 203, HIGH       │
+│  POINT, NC, 272658357',    │
+│  'status': 'A',            │
+│  'registry_found': True}   │
+│                            │
+│  Calculate a confidence    │
+│  score using these rules:  │
+│  - CRITICAL: If            │
+│  'registry_found' is       │
+│  false or REGISTRY DATA    │
+│  is empty/error -> Score   │
+│  = 0. Stop there.          │
+│  - Otherwise, start at     │
+│  100% and apply            │
+│  penalties:                │
+│  - Name mismatch: -20      │
+│  points                    │
+│  - License mismatch: -15   │
+│  points                    │
+│  - Specialty mismatch      │
+│  (total): -10 points       │
+│  - Specialty mismatch      │
+│  (minor): -5 points        │
+│  - Address format          │
+│  difference: -5 points     │
+│                            │
+│  Threshold for             │
+│  "Validated" status: 77%   │
+│  Below threshold =         │
+│  "Flagged" status          │
+│                            │
+│  IMPORTANT OUTPUT RULES:   │
+│  - Return ONLY the raw     │
+│  JSON object.              │
+│  - Do NOT use markdown     │
+│  formatting (no ```json    │
+│  ... ```).                 │
+│  - Do NOT include any      │
+│  introductory text.        │
+│  Agent:                    │
+│  Quality Assurance         │
+│  Validator                 │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+╭───── Crew Completion ──────╮
+│                            │
+│  Crew Execution Completed  │
+│  Name:                     │
+│  crew                      │
+│  ID:                       │
+│  e27799eb-5cb9-4303-9d9e-  │
+│  659e71178974              │
+│  Final Output:             │
+│  {"confidence_score": 65,  │
+│  "status": "Flagged",      │
+│  "discrepancies": ["Name   │
+│  mismatch: Extracted       │
+│  'Unknown Provider (NPI:   │
+│  1316196298)' vs.          │
+│  Registry 'KIRSTEN         │
+│  GOOLSBY PAC'",            │
+│  "Specialty mismatch:      │
+│  Extracted 'None' vs.      │
+│  Registry 'Physician       │
+│  Assistant'", "Address     │
+│  mismatch: Extracted       │
+│  'None' vs. Registry       │
+│  '4515 PREMIER DR, SUITE   │
+│  203, HIGH POINT, NC,      │
+│  272658357'"], "summary":  │
+│  "Discrepancies found in   │
+│  name, specialty, and      │
+│  address."}                │
+│                            │
+│                            │
+╰────────────────────────────╯
+
+[19:55:46] QA Agent: Validation complete for: Unknown Provider (NPI: 1316196298)
+╭────── Tracing Status ──────╮
+│                            │
+│  Info: Tracing is          │
+│  disabled.                 │
+│                            │
+│  To enable tracing, do     │
+│  any one of these:         │
+│  • Set tracing=True in     │
+│  your Crew/Flow code       │
+│  • Set                     │
+│  CREWAI_TRACING_ENABLED=t  │
+│  rue in your project's     │
+│  .env file                 │
+│  • Run: crewai traces      │
+│  enable                    │
+│                            │
+╰────────────────────────────╯
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:48] CrewAI Orchestrator: Updating existing provider: Unknown Provider (NPI: 1316196298) (NPI: 1316196298)
+INFO:     127.0.0.1:62012 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:50] CrewAI Orchestrator: Saved: Unknown Provider (NPI: 1316196298) -> Flagged (65%)
+INFO:     127.0.0.1:62012 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62014 - "GET /api/logs HTTP/1.1" 200 OK
+[19:55:52] CrewAI Orchestrator: Workflow complete. Processed 2/2 providers.
+INFO:     127.0.0.1:62014 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62014 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62012 - "GET /api/validation/31/discrepancies HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62014 - "GET /api/validation/31 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61998 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62018 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62018 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62018 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62018 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62018 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62018 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62028 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62020 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62047 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62049 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62060 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62062 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62066 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62066 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62066 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62033 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62066 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62071 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62071 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62071 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62071 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62092 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62092 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62092 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62100 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62089 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62122 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62124 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62124 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62124 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62124 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62124 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62124 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62124 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62139 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62149 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62137 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62149 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62155 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62153 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62155 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62155 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62155 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62155 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62159 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62151 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62161 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62169 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62171 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62177 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62175 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62175 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62175 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62175 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62175 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62185 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62175 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62183 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62183 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62183 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62183 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62183 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62189 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62183 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62187 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62187 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62187 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62187 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62187 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62187 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62193 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62191 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62191 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62191 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62191 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62191 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62199 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62191 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62197 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62197 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62197 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62197 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62197 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62203 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62197 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62205 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62207 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62207 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62207 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62207 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62207 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62207 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62210 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62201 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62474 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62473 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62476 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62472 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62478 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62478 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62478 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62478 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62478 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62478 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62483 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62481 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62481 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62468 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62481 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62481 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62478 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62483 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62483 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62483 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62494 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62492 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62492 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62498 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62492 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62496 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62496 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62505 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62507 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62505 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62505 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62505 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62507 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62505 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62505 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62513 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62513 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62513 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62513 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62520 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62522 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62522 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62522 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62526 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62535 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62533 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62533 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62533 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62533 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62511 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62533 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62540 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62540 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62544 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62544 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62540 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62542 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /api/jobs/active HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62542 - "GET /api/dashboard/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62548 - "GET /api/providers HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62542 - "GET /api/logs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62542 - "GET /api/jobs/active HTTP/1.1" 200 OK

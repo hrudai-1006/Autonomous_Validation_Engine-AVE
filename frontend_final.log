@@ -1,0 +1,11 @@
+
+> frontend@0.0.0 dev
+> vite --port 5500 --strictPort
+
+7:32:04 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v7.3.1  ready in 193 ms
+
+  ➜  Local:   http://localhost:5500/
+  ➜  Network: http://10.237.113.163:5500/
+  ➜  press h + enter to show help
